@@ -1,0 +1,296 @@
+<rdf:RDF xmlns="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:doc="http://www.w3.org/2000/10/swap/pim/doc#"
+    xmlns:o2="http://www.w3.org/2007/ont/o2#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:un="http://www.w3.org/2007/ont/unit#">
+
+    <rdf:Description>
+        <rdf:first rdf:resource="http://www.w3.org/2007/ont/unit#A"/>
+        <rdf:rest rdf:parseType="Resource">
+            <rdf:first rdf:resource="http://www.w3.org/2007/ont/unit#V"/>
+            <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        </rdf:rest>
+        <o2:chain rdf:resource="http://www.w3.org/2007/ont/unit#W"/>
+    </rdf:Description>
+
+    <rdf:Description>
+        <rdf:first rdf:resource="http://www.w3.org/2007/ont/unit#A"/>
+        <rdf:rest rdf:parseType="Resource">
+            <rdf:first rdf:resource="http://www.w3.org/2007/ont/unit#s"/>
+            <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        </rdf:rest>
+        <o2:chain rdf:resource="http://www.w3.org/2007/ont/unit#C"/>
+    </rdf:Description>
+
+    <rdf:Description>
+        <rdf:first rdf:resource="http://www.w3.org/2007/ont/unit#N"/>
+        <rdf:rest rdf:parseType="Resource">
+            <rdf:first rdf:resource="http://www.w3.org/2007/ont/unit#m"/>
+            <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        </rdf:rest>
+        <o2:chain rdf:resource="http://www.w3.org/2007/ont/unit#J"/>
+    </rdf:Description>
+
+    <rdf:Description>
+        <rdf:first rdf:resource="http://www.w3.org/2007/ont/unit#W"/>
+        <rdf:rest rdf:parseType="Resource">
+            <rdf:first rdf:resource="http://www.w3.org/2007/ont/unit#s"/>
+            <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        </rdf:rest>
+        <o2:chain rdf:resource="http://www.w3.org/2007/ont/unit#J"/>
+    </rdf:Description>
+
+    <rdf:Description>
+        <rdf:first rdf:resource="http://www.w3.org/2007/ont/unit#chain"/>
+        <rdf:rest rdf:parseType="Resource">
+            <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</rdf:first>
+            <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        </rdf:rest>
+        <un:product rdf:resource="http://www.w3.org/2007/ont/unit#furlong"/>
+    </rdf:Description>
+
+    <rdf:Description>
+        <rdf:first rdf:resource="http://www.w3.org/2007/ont/unit#foot"/>
+        <rdf:rest rdf:parseType="Resource">
+            <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</rdf:first>
+            <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        </rdf:rest>
+        <un:product rdf:resource="http://www.w3.org/2007/ont/unit#yard"/>
+    </rdf:Description>
+
+    <rdf:Description>
+        <rdf:first rdf:resource="http://www.w3.org/2007/ont/unit#furlong"/>
+        <rdf:rest rdf:parseType="Resource">
+            <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</rdf:first>
+            <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        </rdf:rest>
+        <un:product rdf:resource="http://www.w3.org/2007/ont/unit#mile"/>
+    </rdf:Description>
+
+    <rdf:Description>
+        <rdf:first rdf:resource="http://www.w3.org/2007/ont/unit#inch"/>
+        <rdf:rest rdf:parseType="Resource">
+            <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</rdf:first>
+            <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        </rdf:rest>
+        <un:product rdf:resource="http://www.w3.org/2007/ont/unit#foot"/>
+    </rdf:Description>
+
+    <rdf:Description>
+        <rdf:first rdf:resource="http://www.w3.org/2007/ont/unit#kg"/>
+        <rdf:rest rdf:parseType="Resource">
+            <rdf:first rdf:resource="http://www.w3.org/2007/ont/unit#mpsps"/>
+            <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        </rdf:rest>
+        <o2:chain rdf:resource="http://www.w3.org/2007/ont/unit#N"/>
+    </rdf:Description>
+
+    <rdf:Description>
+        <rdf:first rdf:resource="http://www.w3.org/2007/ont/unit#m"/>
+        <rdf:rest rdf:parseType="Resource">
+            <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0254</rdf:first>
+            <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        </rdf:rest>
+        <un:product rdf:resource="http://www.w3.org/2007/ont/unit#inch"/>
+    </rdf:Description>
+
+    <rdf:Description>
+        <rdf:first rdf:resource="http://www.w3.org/2007/ont/unit#m"/>
+        <rdf:rest rdf:parseType="Resource">
+            <rdf:first rdf:resource="http://www.w3.org/2007/ont/unit#hz"/>
+            <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        </rdf:rest>
+        <o2:chain rdf:resource="http://www.w3.org/2007/ont/unit#mps"/>
+    </rdf:Description>
+
+    <rdf:Description>
+        <rdf:first rdf:resource="http://www.w3.org/2007/ont/unit#m"/>
+        <rdf:rest rdf:parseType="Resource">
+            <rdf:first rdf:resource="http://www.w3.org/2007/ont/unit#m"/>
+            <rdf:rest rdf:parseType="Resource">
+                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10000</rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:rest>
+        </rdf:rest>
+        <un:product rdf:resource="http://www.w3.org/2007/ont/unit#hectare"/>
+    </rdf:Description>
+
+    <rdf:Description>
+        <rdf:first rdf:resource="http://www.w3.org/2007/ont/unit#m"/>
+        <rdf:rest rdf:parseType="Resource">
+            <rdf:first rdf:resource="http://www.w3.org/2007/ont/unit#m"/>
+            <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        </rdf:rest>
+        <o2:chain rdf:resource="http://www.w3.org/2007/ont/unit#m2"/>
+    </rdf:Description>
+
+    <rdf:Description>
+        <rdf:first rdf:resource="http://www.w3.org/2007/ont/unit#mps"/>
+        <rdf:rest rdf:parseType="Resource">
+            <rdf:first rdf:resource="http://www.w3.org/2007/ont/unit#hz"/>
+            <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        </rdf:rest>
+        <o2:chain rdf:resource="http://www.w3.org/2007/ont/unit#mpsps"/>
+    </rdf:Description>
+
+    <rdf:Description>
+        <rdf:first rdf:resource="http://www.w3.org/2007/ont/unit#yard"/>
+        <rdf:rest rdf:parseType="Resource">
+            <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</rdf:first>
+            <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        </rdf:rest>
+        <un:product rdf:resource="http://www.w3.org/2007/ont/unit#chain"/>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="">
+        <cc:licence rdf:resource="http://www.w3.org/2000/10/swap/LICENSE.n3"/>
+        <dc:title>An Ontology for Units of Measure</dc:title>
+        <comment>Units of Measure.
+    
+    This ontology defines a set of properties which may be used
+    for reprenting physical quantities.   Each is an RDF Property
+    which realtes a quantity to a number which expreses the quantity in 
+    that expressed that quntity in the given unit.
+    
+        :bed     ex:length   _:a.
+        _a:     m   2.
+        
+    Property chaining is the equivalent of unit multiplication.
+    Inverse properties correspond to reciprocal units.
+    Because conventional signs for units are very case-sensitive, this
+    ontology breaks from the normal convention that all property localnames
+    begin with lowercase.
+    See also http://www-ksl.stanford.edu/knowledge-sharing/papers/engmath.html
+    </comment>
+        <doc:creator rdf:resource="http://www.w3.org/People/Berners-Lee/card#i"/>
+        <doc:version>$Id: unit.rdf,v 1.2 2007/07/31 23:06:23 timbl Exp $</doc:version>
+    </rdf:Description>
+
+    <rdf:Property rdf:about="http://www.w3.org/2007/ont/unit#A">
+        <rdf:type rdf:resource="http://www.w3.org/2007/ont/unit#Unit"/>
+        <comment>The number Ampêres in this current.</comment>
+        <domain rdf:resource="http://www.w3.org/2007/ont/unit#Quantity"/>
+        <label>A</label>
+        <range rdf:resource="http://www.w3.org/2007/ont/unit#Quantity"/>
+    </rdf:Property>
+
+    <rdf:Property rdf:about="http://www.w3.org/2007/ont/unit#C">
+        <rdf:type rdf:resource="http://www.w3.org/2007/ont/unit#Unit"/>
+        <comment>The number of Coulonbs in this electyric charge.</comment>
+        <domain rdf:resource="http://www.w3.org/2007/ont/unit#Quantity"/>
+        <label>C</label>
+        <range rdf:resource="http://www.w3.org/2007/ont/unit#Quantity"/>
+    </rdf:Property>
+
+    <rdf:Property rdf:about="http://www.w3.org/2007/ont/unit#J">
+        <rdf:type rdf:resource="http://www.w3.org/2007/ont/unit#Unit"/>
+        <comment>The number of joules in this energy.</comment>
+        <domain rdf:resource="http://www.w3.org/2007/ont/unit#Quantity"/>
+        <label>J</label>
+        <range rdf:resource="http://www.w3.org/2007/ont/unit#Quantity"/>
+    </rdf:Property>
+
+    <rdf:Property rdf:about="http://www.w3.org/2007/ont/unit#N">
+        <rdf:type rdf:resource="http://www.w3.org/2007/ont/unit#Unit"/>
+        <comment>The number of Newtons in this force.</comment>
+        <domain rdf:resource="http://www.w3.org/2007/ont/unit#Quantity"/>
+        <label>N</label>
+        <range rdf:resource="http://www.w3.org/2007/ont/unit#Quantity"/>
+    </rdf:Property>
+
+    <Class rdf:about="http://www.w3.org/2007/ont/unit#Quantity">
+        <comment>A (scalar) physical quanity or dimensionless number.
+    (This could be extended to include vector quantities.)</comment>
+        <label>quantity</label>
+    </Class>
+
+    <Class rdf:about="http://www.w3.org/2007/ont/unit#Unit">
+        <comment>Unit of measure.  Units of measure are commutative
+    with each other under o2:chain. </comment>
+        <label xml:lang="en">Unit</label>
+        <subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    </Class>
+
+    <rdf:Property rdf:about="http://www.w3.org/2007/ont/unit#V">
+        <rdf:type rdf:resource="http://www.w3.org/2007/ont/unit#Unit"/>
+        <comment>The number of Volts in this electrical potential.</comment>
+        <domain rdf:resource="http://www.w3.org/2007/ont/unit#Quantity"/>
+        <label>V</label>
+        <range rdf:resource="http://www.w3.org/2007/ont/unit#Quantity"/>
+    </rdf:Property>
+
+    <rdf:Property rdf:about="http://www.w3.org/2007/ont/unit#W">
+        <rdf:type rdf:resource="http://www.w3.org/2007/ont/unit#Unit"/>
+        <comment>The number of Watts in this power.</comment>
+        <domain rdf:resource="http://www.w3.org/2007/ont/unit#Quantity"/>
+        <label>N</label>
+        <range rdf:resource="http://www.w3.org/2007/ont/unit#Quantity"/>
+    </rdf:Property>
+
+    <rdf:Property rdf:about="http://www.w3.org/2007/ont/unit#hz">
+        <rdf:type rdf:resource="http://www.w3.org/2007/ont/unit#Unit"/>
+        <comment>The number of Hertz in this frequency.</comment>
+        <domain rdf:resource="http://www.w3.org/2007/ont/unit#Quantity"/>
+        <label>Hz</label>
+        <range rdf:resource="http://www.w3.org/2007/ont/unit#Quantity"/>
+        <owl:inverseOf rdf:resource="http://www.w3.org/2007/ont/unit#s"/>
+    </rdf:Property>
+
+    <rdf:Property rdf:about="http://www.w3.org/2007/ont/unit#kg">
+        <rdf:type rdf:resource="http://www.w3.org/2007/ont/unit#Unit"/>
+        <comment>The number of kilograms in this mass.</comment>
+        <domain rdf:resource="http://www.w3.org/2007/ont/unit#Quantity"/>
+        <label>kg</label>
+        <range rdf:resource="http://www.w3.org/2007/ont/unit#Quantity"/>
+    </rdf:Property>
+
+    <rdf:Property rdf:about="http://www.w3.org/2007/ont/unit#m">
+        <rdf:type rdf:resource="http://www.w3.org/2007/ont/unit#Unit"/>
+        <comment>The number of meters in this linear measurement.</comment>
+        <domain rdf:resource="http://www.w3.org/2007/ont/unit#Quantity"/>
+        <label>m</label>
+        <range rdf:resource="http://www.w3.org/2007/ont/unit#Quantity"/>
+    </rdf:Property>
+
+    <rdf:Property rdf:about="http://www.w3.org/2007/ont/unit#m2">
+        <rdf:type rdf:resource="http://www.w3.org/2007/ont/unit#Unit"/>
+        <comment>The number of square meters in this area.</comment>
+        <domain rdf:resource="http://www.w3.org/2007/ont/unit#Quantity"/>
+        <label>m2</label>
+        <range rdf:resource="http://www.w3.org/2007/ont/unit#Quantity"/>
+    </rdf:Property>
+
+    <rdf:Property rdf:about="http://www.w3.org/2007/ont/unit#mps">
+        <rdf:type rdf:resource="http://www.w3.org/2007/ont/unit#Unit"/>
+        <comment>The number of meters per second in this speed.</comment>
+        <domain rdf:resource="http://www.w3.org/2007/ont/unit#Quantity"/>
+        <label>ms-1</label>
+        <range rdf:resource="http://www.w3.org/2007/ont/unit#Quantity"/>
+    </rdf:Property>
+
+    <rdf:Property rdf:about="http://www.w3.org/2007/ont/unit#mpsps">
+        <rdf:type rdf:resource="http://www.w3.org/2007/ont/unit#Unit"/>
+        <comment>The number of meters per second per second in this acceleration.</comment>
+        <domain rdf:resource="http://www.w3.org/2007/ont/unit#Quantity"/>
+        <label>ms-2</label>
+        <range rdf:resource="http://www.w3.org/2007/ont/unit#Quantity"/>
+    </rdf:Property>
+
+    <rdf:Property rdf:about="http://www.w3.org/2007/ont/unit#product">
+        <rdf:range rdf:resource="http://www.w3.org/2007/ont/unit#Quanity"/>
+        <comment>The product of units of measure and numbers.</comment>
+        <label>product</label>
+    </rdf:Property>
+
+    <rdf:Property rdf:about="http://www.w3.org/2007/ont/unit#s">
+        <rdf:type rdf:resource="http://www.w3.org/2007/ont/unit#Unit"/>
+        <comment>The number of seconds in this time measurement.</comment>
+        <domain rdf:resource="http://www.w3.org/2007/ont/unit#Quantity"/>
+        <label>s</label>
+        <range rdf:resource="http://www.w3.org/2007/ont/unit#Quantity"/>
+    </rdf:Property>
+</rdf:RDF>

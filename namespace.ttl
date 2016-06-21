@@ -1,0 +1,381 @@
+@prefix : <http://example.com/ns/> .
+@prefix gr: <http://purl.org/goodrelations/v1#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time: <https://www.w3.org/2006/time#> .
+@prefix unit: <http://www.w3.org/2007/ont/unit#> .
+
+<http://example.com/ns/> a owl:Ontology ;
+	rdfs:isDefinedBy "J. Oppenlaender"^^xsd:string ;
+	rdfs:label "DB Linked Data"^^xsd:string .
+# 
+# 
+# #################################################################
+# #
+# #    Datatypes
+# #
+# #################################################################
+# 
+# 
+# http://example.com/ns/plz
+
+:plz a rdfs:Datatype .
+# 
+# http://example.com/ns/strasse
+
+:strasse a rdfs:Datatype .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://example.com/ns/hasAufgabentraeger
+
+:hasAufgabentraeger a owl:ObjectProperty , owl:FunctionalProperty , owl:AsymmetricProperty , owl:IrreflexiveProperty ;
+	rdfs:range :aufgabentraeger .
+# 
+# http://example.com/ns/hasAufzug
+
+:hasAufzug a owl:ObjectProperty , owl:AsymmetricProperty , owl:IrreflexiveProperty ;
+	rdfs:range :aufzug .
+# 
+# http://example.com/ns/hasBahnhof
+
+:hasBahnhof a owl:ObjectProperty , owl:FunctionalProperty , owl:AsymmetricProperty , owl:IrreflexiveProperty ;
+	rdfs:range :bahnhof .
+# 
+# http://example.com/ns/hasBahnhofskategorie
+
+:hasBahnhofskategorie a owl:ObjectProperty , owl:FunctionalProperty , owl:AsymmetricProperty , owl:IrreflexiveProperty ;
+	rdfs:range :bahnhofskategorie .
+# 
+# http://example.com/ns/hasBahnsteig
+
+:hasBahnsteig a owl:ObjectProperty , owl:AsymmetricProperty , owl:IrreflexiveProperty ;
+	rdfs:range :bahnsteig .
+# 
+# http://example.com/ns/hasBetriebsstelle
+
+:hasBetriebsstelle a owl:ObjectProperty , owl:AsymmetricProperty , owl:IrreflexiveProperty ;
+	rdfs:range :betriebsstelle .
+# 
+# http://example.com/ns/hasBundesland
+
+:hasBundesland a owl:ObjectProperty , owl:FunctionalProperty , owl:AsymmetricProperty , owl:IrreflexiveProperty ;
+	rdfs:range :bundesland .
+# 
+# http://example.com/ns/hasDS100
+
+:hasDS100 a owl:ObjectProperty , owl:AsymmetricProperty , owl:IrreflexiveProperty ;
+	rdfs:range :betriebsstelle .
+# 
+# http://example.com/ns/hasFunktionskategorie
+
+:hasFunktionskategorie a owl:ObjectProperty , owl:AsymmetricProperty , owl:IrreflexiveProperty ;
+	rdfs:range :funktionskategorie .
+# 
+# http://example.com/ns/hasGleis
+
+:hasGleis a owl:ObjectProperty , owl:AsymmetricProperty , owl:IrreflexiveProperty ;
+	rdfs:range :gleis .
+# 
+# http://example.com/ns/hasHersteller
+
+:hasHersteller a owl:ObjectProperty , owl:AsymmetricProperty , owl:IrreflexiveProperty ;
+	rdfs:range :hersteller .
+# 
+# http://example.com/ns/hasOrt
+
+:hasOrt a owl:ObjectProperty , owl:AsymmetricProperty , owl:IrreflexiveProperty ;
+	rdfs:range :ort .
+# 
+# http://example.com/ns/hasRegionalbereich
+
+:hasRegionalbereich a owl:ObjectProperty , owl:AsymmetricProperty , owl:IrreflexiveProperty ;
+	rdfs:range :regionalbereich .
+# 
+# http://example.com/ns/hasStandort
+
+:hasStandort a owl:ObjectProperty , owl:AsymmetricProperty , owl:IrreflexiveProperty ;
+	rdfs:range :standort .
+# 
+# http://example.com/ns/hasStation
+
+:hasStation a owl:ObjectProperty , owl:AsymmetricProperty , owl:IrreflexiveProperty ;
+	rdfs:range :station .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://example.com/ns/hasAbkuerzung
+
+:hasAbkuerzung a owl:DatatypeProperty ;
+	rdfs:range xsd:string .
+# 
+# http://example.com/ns/hasAntriebsart
+
+:hasAntriebsart a owl:DatatypeProperty ;
+	rdfs:range xsd:string .
+# 
+# http://example.com/ns/hasAnzahlHaltestellen
+
+:hasAnzahlHaltestellen a owl:DatatypeProperty ;
+	rdfs:range xsd:integer .
+# 
+# http://example.com/ns/hasAnzahlTuerenKabine
+
+:hasAnzahlTuerenKabine a owl:DatatypeProperty ;
+	rdfs:range xsd:integer .
+# 
+# http://example.com/ns/hasAnzahlTuerenSchacht
+
+:hasAnzahlTuerenSchacht a owl:DatatypeProperty ;
+	rdfs:range xsd:integer .
+# 
+# http://example.com/ns/hasBaujahr
+
+:hasBaujahr a owl:DatatypeProperty .
+# 
+# http://example.com/ns/hasBreite
+
+:hasBreite a owl:DatatypeProperty .
+# 
+# http://example.com/ns/hasFernverkehr
+
+:hasFernverkehr a owl:DatatypeProperty ;
+	rdfs:range xsd:boolean .
+# 
+# http://example.com/ns/hasFoerdergeschwindigkeit
+
+:hasFoerdergeschwindigkeit a owl:DatatypeProperty ;
+	rdfs:range xsd:decimal .
+# 
+# http://example.com/ns/hasFoerderhoehe
+
+:hasFoerderhoehe a owl:DatatypeProperty .
+# 
+# http://example.com/ns/hasGleislaenge
+
+:hasGleislaenge a owl:DatatypeProperty .
+# 
+# http://example.com/ns/hasGueltigkeit
+
+:hasGueltigkeit a owl:DatatypeProperty ;
+	rdfs:range xsd:string .
+# 
+# http://example.com/ns/hasHoeheBahnsteigkante
+
+:hasHoeheBahnsteigkante a owl:DatatypeProperty .
+# 
+# http://example.com/ns/hasLaendercode
+
+:hasLaendercode a owl:DatatypeProperty ;
+	rdfs:range xsd:string .
+# 
+# http://example.com/ns/hasLaenge
+
+:hasLaenge a owl:DatatypeProperty .
+# 
+# http://example.com/ns/hasLocationcode
+
+:hasLocationcode a owl:DatatypeProperty ;
+	rdfs:range xsd:string .
+# 
+# http://example.com/ns/hasNahverkehr
+
+:hasNahverkehr a owl:DatatypeProperty ;
+	rdfs:range xsd:boolean .
+# 
+# http://example.com/ns/hasNettobaulaenge
+
+:hasNettobaulaenge a owl:DatatypeProperty .
+# 
+# http://example.com/ns/hasNutzlaenge
+
+:hasNutzlaenge a owl:DatatypeProperty .
+# 
+# http://example.com/ns/hasOberleitungslaenge
+
+:hasOberleitungslaenge a owl:DatatypeProperty .
+# 
+# http://example.com/ns/hasPLZ
+
+:hasPLZ a owl:DatatypeProperty ;
+	rdfs:range xsd:string .
+# 
+# http://example.com/ns/hasStrasse
+
+:hasStrasse a owl:DatatypeProperty ;
+	rdfs:range xsd:string .
+# 
+# http://example.com/ns/hasTragkraft
+
+:hasTragkraft a owl:DatatypeProperty .
+# 
+# http://example.com/ns/hasVerkehr
+
+:hasVerkehr a owl:DatatypeProperty ;
+	rdfs:range xsd:string .
+# 
+# http://example.com/ns/hasVerkehrAbk
+
+:hasVerkehrAbk a owl:DatatypeProperty ;
+	rdfs:range xsd:string .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://example.com/ns/aufgabentraeger
+
+:aufgabentraeger a owl:Class .
+# 
+# http://example.com/ns/aufzug
+
+:aufzug a owl:Class .
+# 
+# http://example.com/ns/bahnhof
+
+:bahnhof a owl:Class .
+# 
+# http://example.com/ns/bahnhofskategorie
+
+:bahnhofskategorie a owl:Class .
+# 
+# http://example.com/ns/bahnsteig
+
+:bahnsteig a owl:Class .
+# 
+# http://example.com/ns/betriebsstelle
+
+:betriebsstelle a owl:Class .
+# 
+# http://example.com/ns/bundesland
+
+:bundesland a owl:Class .
+# 
+# http://example.com/ns/funktionskategorie
+
+:funktionskategorie a owl:Class .
+# 
+# http://example.com/ns/gleis
+
+:gleis a owl:Class .
+# 
+# http://example.com/ns/hersteller
+
+:hersteller a owl:Class .
+# 
+# http://example.com/ns/ort
+
+:ort a owl:Class .
+# 
+# http://example.com/ns/regionalbereich
+
+:regionalbereich a owl:Class .
+# 
+# http://example.com/ns/standort
+
+:standort a owl:Class .
+# 
+# http://example.com/ns/station
+
+:station a owl:Class .
+# 
+# http://www.w3.org/2007/ont/unit#kg
+
+unit:kg a owl:Class .
+# 
+# http://www.w3.org/2007/ont/unit#m
+
+unit:m a owl:Class .
+# 
+# https://www.w3.org/2006/time#year
+
+time:year a owl:Class .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://example.com/ns/aufgabentraeger
+
+:aufgabentraeger a owl:NamedIndividual , owl:Thing .
+# 
+# http://example.com/ns/aufzug
+
+:aufzug a owl:NamedIndividual , owl:Thing .
+# 
+# http://example.com/ns/bahnhof
+
+:bahnhof a owl:NamedIndividual , owl:Thing .
+# 
+# http://example.com/ns/bahnhofskategorie
+
+:bahnhofskategorie a owl:NamedIndividual , owl:Thing .
+# 
+# http://example.com/ns/bahnsteig
+
+:bahnsteig a owl:NamedIndividual , owl:Thing .
+# 
+# http://example.com/ns/betriebsstelle
+
+:betriebsstelle a owl:NamedIndividual , owl:Thing .
+# 
+# http://example.com/ns/bundesland
+
+:bundesland a owl:NamedIndividual , owl:Thing .
+# 
+# http://example.com/ns/gleis
+
+:gleis a owl:NamedIndividual , owl:Thing .
+# 
+# http://example.com/ns/haltestelle
+
+:haltestelle a owl:NamedIndividual , owl:Thing .
+# 
+# http://example.com/ns/hersteller
+
+:hersteller a owl:NamedIndividual , owl:Thing .
+# 
+# http://example.com/ns/regionalbereich
+
+:regionalbereich a owl:NamedIndividual , owl:Thing .
+# 
+# http://example.com/ns/reisezentrum
+
+:reisezentrum a owl:NamedIndividual , owl:Thing .
+# 
+# http://example.com/ns/serviceeinrichtung
+
+:serviceeinrichtung a owl:NamedIndividual , owl:Thing .
+# 
+# http://example.com/ns/standort
+
+:standort a owl:NamedIndividual , owl:Thing .
+# 
+# Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi

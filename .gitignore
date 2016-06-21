@@ -1,0 +1,10 @@
+venv
+./**/*.csv
+./**/*.xls
+./**/*.xlsx
+*.xml
+./**/src
+src
+./**/build
+build
+catalog-v001.xml
