@@ -5,7 +5,7 @@ STAND: Oktober 2015
 Quelle: http://data.deutschebahn.com/datasets/aufzug/
 Lizenz: Creative Commons Attribution 4.0 International (CC BY 4.0)
 
-In den veröffentlichten Daten sind zu jeden Aufzug folgende Informationen enthalten:
+In den veröffentlichten Daten sind folgende Informationen enthalten:
 
 * TechnPlatzBezeichng: Technischer Platz (SAP), z. B. Bahnsteig 1, Gleis 1.
 * Equipment: Eq.Nummer, z. B. 10006121.
@@ -35,3 +35,44 @@ In den veröffentlichten Daten sind zu jeden Aufzug folgende Informationen enthal
 * AUSFTEXTLICHEBESCHREIBUNG: Ausf. Beschreibung, z. B. Aufzug zu Gleis 1.
 
 Die Koordinaten sind im Lage- und Höhenfestpunktsystem der Deutschen Bahn AG (DB REF).
+
+Beispiel-Ressource
+------------------
+
+aufzuege.rdf:
+
+	<rdf:Description rdf:about="&id;aufzug/au-sieg-bahnsteig-02-mittelbahnsteig/">
+		<rdf:type rdf:resource="&ns;aufzug/" />
+		<rdfs:label>Aufzug zu Gleis 2/3</rdfs:label>
+		<dc:description>HA 1013 Personenaufzug Gleis 2/3</dc:description>
+		<ns:hasBahnhof rdf:resource="&id;bahnhof/204/" />
+		<ns:hasStandort rdf:resource="&id;standort/au-sieg-im-bf-au/sieg-1/" />
+		<ns:hasOrt rdf:resource="&id;ort/au-sieg/" />
+		<ns:hasHersteller rdf:resource="&id;hersteller/thyssen-krupp-ag/" />
+		<ns:hasBaujahr rdf:datatype="time:year">2007</ns:hasBaujahr>
+		<ns:hasAntriebsart>SEIL</ns:hasAntriebsart>
+		<ns:hasAnzahlHaltestellen rdf:datatype="xsd:integer">2</ns:hasAnzahlHaltestellen>
+		<ns:hasAnzahlTuerenKabine rdf:datatype="xsd:integer">2</ns:hasAnzahlTuerenKabine>
+		<ns:hasAnzahlTuerenSchacht rdf:datatype="xsd:integer">2</ns:hasAnzahlTuerenSchacht>
+		<ns:hasFoerdergeschwindigkeit rdf:datatype="xsd:decimal">0,4</ns:hasFoerdergeschwindigkeit>
+		<ns:hasFoerderhoehe rdf:datatype="unit:m">4,46</ns:hasFoerderhoehe>
+		<ns:hasTragkraft rdf:datatype="unit:kg">630</ns:hasTragkraft>
+		<ns:hasLage>NEBEN</ns:hasLage>
+		<ns:hasGeokoordinaterechtswert>3405301,017</ns:hasGeokoordinaterechtswert>
+		<ns:hasGeokoordinatehochwert>5627341,9400000004</ns:hasGeokoordinatehochwert>
+	</rdf:Description>
+
+aufzuege-hersteller.rdf:
+
+	<rdf:Description rdf:about="&id;hersteller/thyssen-krupp-ag/">
+		<rdf:type rdf:resource="&ns;hersteller/" />
+		<rdfs:label>Thyssen Krupp AG</rdfs:label>
+	</rdf:Description>
+
+aufzuege-standorte.rdf:
+
+	<rdf:Description rdf:about="&id;standort/dormagen-bstg-1/2/">
+		<rdf:type rdf:resource="&ns;standort/" />
+		<rdfs:label>Dormagen BSTG. 1/2</rdfs:label>
+		<ns:hasAufzug rdf:resource="&id;aufzug/dormagen-bahnsteig-01/" />
+	</rdf:Description>
