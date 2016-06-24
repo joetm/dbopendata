@@ -13,3 +13,14 @@ In den veröffentlichten Daten sind zu jeden Bahnsteig folgende Informationen ent
 * Bahnsteig_Nr: Bahnsteignummer, z. B. B01.
 * Bahnsteig_Hoehe_cm: Höhe Bahnsteigkante in cm, z. B. 115.
 * Nettobahnsteiglaenge_m: Nettolänge des Bahnsteigs in m, z. B. 38.
+
+
+Beispiel-Ressourcen:
+--------------------
+
+bahnsteige-rni.rdf
+
+gleise-rni.rdf
+
+bahnhoefe-gleise-rni.rdf
+

@@ -21,6 +21,7 @@ Ontology Design Prinzipien
 * *Hackable* URIs, z.B. `&id;bahnhof/123/bahnsteig/292-b01/gleis/1/`
 * URIs haben ausnahmslos einen *trailing slash*, z.B. `&id;bahnhof/123/` oder `&ns;bahnhof/`
 * Alle Prädikate haben den Prefix "has", auch wenn das semantisch nicht immer korrekt ist. 
+* Kommazahlen im englischn Format (z.B. 0.4 anstelle 0,4)
 
 
 Wie benutze ich die Daten?

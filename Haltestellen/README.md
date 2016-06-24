@@ -16,3 +16,27 @@ In den veröffentlichten Daten sind zu jeder Haltestelle folgende Informationen e
 
 https://de.wikipedia.org/wiki/Haltepunkt
 Im Unterschied zu einem Bahnhof besitzt ein Haltepunkt nicht zwingend Weichen. 
+
+
+Beispielressourcen:
+-------------------
+
+betriebstellen.rdf
+
+	<rdf:Description rdf:about="&id;betriebstelle/lsbu/">
+		<rdf:type rdf:resource="&ns;betriebstelle/" />
+		<rdfs:label>Stapelburg</rdfs:label>
+		<owl:sameAs rdf:resource="&id;bahnhof/stapelburg/" />
+	</rdf:Description>
+
+haltestellen.rdf
+
+	<rdf:Description rdf:about="&id;haltestelle/8005074/">
+		<rdf:type rdf:resource="&ns;haltestelle/" />
+		<rdfs:label>Rh&#246;ndorf</rdfs:label>
+		<ns:hasDS100 rdf:resource="&id;betriebstelle/krhd/" />
+		<ns:hasVerkehr>nur Regionalverkehr</ns:hasVerkehr>
+		<ns:hasVerkehrAbk>RV</ns:hasVerkehrAbk>
+		<ns:hasLaenge rdf:datatype="unit:m">7,210214</ns:hasLaenge>
+		<ns:hasBreite rdf:datatype="unit:m">50,657876</ns:hasBreite>
+	</rdf:Description>

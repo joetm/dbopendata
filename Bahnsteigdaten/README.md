@@ -42,8 +42,8 @@ gleise.rdf:
 
 bahnhoefe-gleise.rdf:
 
-  <rdf:Description rdf:about="&id;bahnhof/3490/">
-    <rdf:type rdf:resource="&ns;bahnhof/" />
-    <ns:hasBahnsteig rdf:resource="&id;bahnhof/3490/bahnsteig/b02/" />
-    <ns:hasGleis rdf:resource="&id;bahnhof/3490/gleis/3/" />
-  </rdf:Description>
+	<rdf:Description rdf:about="&id;bahnhof/3490/">
+		<rdf:type rdf:resource="&ns;bahnhof/" />
+		<ns:hasBahnsteig rdf:resource="&id;bahnhof/3490/bahnsteig/b02/" />
+		<ns:hasGleis rdf:resource="&id;bahnhof/3490/gleis/3/" />
+	</rdf:Description>
