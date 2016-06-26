@@ -8,3 +8,4 @@ src
 ./**/build
 build
 catalog-v001.xml
+plugins
