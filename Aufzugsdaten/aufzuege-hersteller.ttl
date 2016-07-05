@@ -1,0 +1,403 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dc11: <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<>
+  a owl:Ontology ;
+  dc11:description "Aufzugshersteller"@en ;
+  dc11:title "Aufzugsdaten" ;
+  dc11:subject "Aufzugsdaten" ;
+  dc11:creator "Michael Binzen" ;
+  dc11:publisher "Deutsche Bahn AG" ;
+  dc11:rightsHolder "Deutsche Bahn AG" ;
+  dc11:license "Commons Attribution 4.0 International (CC BY 4.0)" ;
+  dc11:created "10-2015" ;
+  dc11:modified "10-2015" ;
+  dc11:language "de" ;
+  dc11:source "http://data.deutschebahn.com/dataset/data-aufzug" ;
+  dc11:audience "all" .
+
+<http://example.com/id/hersteller/otis-gmbh-and-co-ohg/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "OTIS GmbH & Co. OHG", "OTIS-GmbH & Co. OHG" .
+
+<http://example.com/id/hersteller/thyssen-krupp-ag/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Thyssen Krupp AG" .
+
+<http://example.com/id/hersteller/rud-prey-gmbh-and-co-kg/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Rud. Prey GmbH & Co. KG" .
+
+<http://example.com/id/hersteller/koch-aufzuegs-service-gmbh/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Koch Aufzügs-Service GmbH" .
+
+<http://example.com/id/hersteller/schmersal-aufzugsservice/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Schmersal Aufzugsservice" .
+
+<http://example.com/id/hersteller/schindler-aufzuege-und-fahrtrep/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Schindler Aufzüge und Fahrtrep" .
+
+<http://example.com/id/hersteller/janzhoff/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Janzhoff" .
+
+<http://example.com/id/hersteller/otto-und-weiss-gmbh/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "OTTO und Weiss GmbH" .
+
+<http://example.com/id/hersteller/haushahn-gmbh-and-co-kg/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Haushahn GmbH & Co. KG" .
+
+<http://example.com/id/hersteller/kone-gmbh/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Kone GmbH", "KONE GmbH" .
+
+<http://example.com/id/hersteller/christian-hein-gmbh/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Christian Hein GmbH" .
+
+<http://example.com/id/hersteller/tepper-aufzuege-gmbh/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Tepper Aufzüge GmbH" .
+
+<http://example.com/id/hersteller/rangger-aufzuege-gmbh/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Rangger Aufzüge GmbH" .
+
+<http://example.com/id/hersteller/rangger/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Rangger" .
+
+<http://example.com/id/hersteller/veb-awl-leipzig/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "VEB AWL Leipzig" .
+
+<http://example.com/id/hersteller/paul-schmidt/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Paul Schmidt" .
+
+<http://example.com/id/hersteller/schindler/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Schindler" .
+
+<http://example.com/id/hersteller/flohr-c/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Flohr C" .
+
+<http://example.com/id/hersteller/rieser-aufzugsbau-gmbh/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Rieser Aufzugsbau GmbH" .
+
+<http://example.com/id/hersteller/m-schmitt-and-sohn-gmbh-and-co/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "M. Schmitt & Sohn GmbH & Co." .
+
+<http://example.com/id/hersteller/aufzugsdienst-leis-gmbh/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Aufzugsdienst Leis GmbH" .
+
+<http://example.com/id/hersteller/becker--reinhardt/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Becker + Reinhardt" .
+
+<http://example.com/id/hersteller/otis/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "OTIS", "Otis" .
+
+<http://example.com/id/hersteller/hiro-lift/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Hiro Lift" .
+
+<http://example.com/id/hersteller/brobeil-aufzuege-gmbh-and-co-kg/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Brobeil Aufzüge GmbH & Co. KG" .
+
+<http://example.com/id/hersteller/atb-aufzugtechnik-baecker-gmbh/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "ATB Aufzugtechnik Baecker GmbH" .
+
+<http://example.com/id/hersteller/beck--henkel/thyssen/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Beck + Henkel/Thyssen" .
+
+<http://example.com/id/hersteller/schmidt-aufzuege-medebach/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Schmidt Aufzüge Medebach" .
+
+<http://example.com/id/hersteller/hopmann-maschinenfabrik-gmbh/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Hopmann Maschinenfabrik GmbH" .
+
+<http://example.com/id/hersteller/sieben-iao/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Sieben IAO" .
+
+<http://example.com/id/hersteller/aufzugsbau-dresden/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Aufzugsbau Dresden" .
+
+<http://example.com/id/hersteller/c-haushahn-gmbh%26co-stuttgart/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "C.Haushahn GmbH&CO.-Stuttgart" .
+
+<http://example.com/id/hersteller/mohr-u-federhaff/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Mohr u. Federhaff" .
+
+<http://example.com/id/hersteller/hebo-foerdertechnik-gmbh/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "HEBO Fördertechnik GmbH" .
+
+<http://example.com/id/hersteller/c-haushahn-gmbh-and-co-kg/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "C. Haushahn GmbH & Co. KG" .
+
+<http://example.com/id/hersteller/haushahn/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Haushahn" .
+
+<http://example.com/id/hersteller/r-stahl-ag/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "R. STAHL AG", "R. Stahl AG" .
+
+<http://example.com/id/hersteller/schmidt-aufzuege-medebach-gmbh/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Schmidt Aufzüge Medebach GmbH" .
+
+<http://example.com/id/hersteller/friedrich-aufzuege-gmbh-and-co-k/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Friedrich-Aufzüge GmbH & Co. K" .
+
+<http://example.com/id/hersteller/huetter-aufzuege-gmbh/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Hütter Aufzüge GmbH" .
+
+<http://example.com/id/hersteller/stricker-aufzuege-gmbh/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Stricker Aufzüge Gmbh" .
+
+<http://example.com/id/hersteller/vestner/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Vestner" .
+
+<http://example.com/id/hersteller/orba-lift-aufzugsdienst-gmbh/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Orba-Lift Aufzugsdienst GmbH" .
+
+<http://example.com/id/hersteller/thyssen-krupp/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Thyssen Krupp" .
+
+<http://example.com/id/hersteller/osma-aufzuege-albert-schenk-gmb/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "OSMA-Aufzüge Albert Schenk Gmb" .
+
+<http://example.com/id/hersteller/braun-aufzuege-gmbh/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Braun Aufzüge GmbH" .
+
+<http://example.com/id/hersteller/gall-and-heckelmann-gmbh/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Gall & Heckelmann GmbH" .
+
+<http://example.com/id/hersteller/loedige-aufzugstechnik-gmbh/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Lödige Aufzugstechnik GmbH" .
+
+<http://example.com/id/hersteller/universal-lift-gmbh-berlin/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Universal Lift GmbH Berlin" .
+
+<http://example.com/id/hersteller/herold-and-co/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Herold & Co" .
+
+<http://example.com/id/hersteller/mannesmann-anlagen/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Mannesmann Anlagen" .
+
+<http://example.com/id/hersteller/baas-aufzuege/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Baas Aufzüge" .
+
+<http://example.com/id/hersteller/aufzugswerk-leipzig/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Aufzugswerk Leipzig" .
+
+<http://example.com/id/hersteller/becker-and-reinhart/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Becker & Reinhart" .
+
+<http://example.com/id/hersteller/lift/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "LIFT" .
+
+<http://example.com/id/hersteller/mahler-u-paulus-aufzugsdienst/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Mahler u. Paulus Aufzugsdienst" .
+
+<http://example.com/id/hersteller/alois-kasper/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Alois Kasper" .
+
+<http://example.com/id/hersteller/schmitt--sohn/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Schmitt + Sohn" .
+
+<http://example.com/id/hersteller/goebel-aufzuege-gmbh/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Goebel Aufzüge GmbH" .
+
+<http://example.com/id/hersteller/veb-sbs-dresden/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "VEB SBS Dresden" .
+
+<http://example.com/id/hersteller/aufzugbau-mayer/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Aufzugbau Mayer" .
+
+<http://example.com/id/hersteller/rupperle-muenzingen/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Rupperle Münzingen" .
+
+<http://example.com/id/hersteller/thyssenkrupp-aufzuege-gmbh/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "ThyssenKrupp Aufzüge GmbH" .
+
+<http://example.com/id/hersteller/lifttec-gmbh/pfaffenweiler/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "LIFTTEC GmbH / Pfaffenweiler" .
+
+<http://example.com/id/hersteller/lutz-aufzuege/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Lutz Aufzüge" .
+
+<http://example.com/id/hersteller/haisch-aufzuege-gmbh/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Haisch Aufzüge GmbH" .
+
+<http://example.com/id/hersteller/mayland-aufzuege-e-kfm/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Mayland-Aufzüge e.Kfm." .
+
+<http://example.com/id/hersteller/otis-gmbh/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Otis GmbH" .
+
+<http://example.com/id/hersteller/fa-thyssen/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Fa. Thyssen" .
+
+<http://example.com/id/hersteller/liftservice-montage-gmbh/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Liftservice Montage GmbH" .
+
+<http://example.com/id/hersteller/kasper-gmbh/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Kasper GmbH" .
+
+<http://example.com/id/hersteller/isselwerk/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Isselwerk" .
+
+<http://example.com/id/hersteller/fujitsu/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Fujitsu" .
+
+<http://example.com/id/hersteller/westag-and-getalit-ag/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Westag & Getalit AG" .
+
+<http://example.com/id/hersteller/schmitt-and-sohn/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Schmitt & Sohn" .
+
+<http://example.com/id/hersteller/thyssen/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Thyssen" .
+
+<http://example.com/id/hersteller/total/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Total" .
+
+<http://example.com/id/hersteller/inotec/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Inotec" .
+
+<http://example.com/id/hersteller/uniflair/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Uniflair" .
+
+<http://example.com/id/hersteller/airwell/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Airwell" .
+
+<http://example.com/id/hersteller/berchtenbreiter-gmbh-muenchen/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Berchtenbreiter GmbH München" .
+
+<http://example.com/id/hersteller/butz-and-neumair-gmbh/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Butz & Neumair GmbH" .
+
+<http://example.com/id/hersteller/butz%26neumeyer/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Butz&Neumeyer" .
+
+<http://example.com/id/hersteller/fa-schindler/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Fa. Schindler" .
+
+<http://example.com/id/hersteller/ludwig-freytag-gmbh-and-co/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Ludwig Freytag Gmbh & Co." .
+
+<http://example.com/id/hersteller/boehnke-partner/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Böhnke Partner" .
+
+<http://example.com/id/hersteller/fa/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Fa." .
+
+<http://example.com/id/hersteller/schindler-aufz-u-fahrt-gmbh/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Schindler Aufz. u. Fahrt. GmbH" .
+
+<http://example.com/id/hersteller/fa-tyssenkrupp/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Fa. TyssenKrupp" .
+
+<http://example.com/id/hersteller/thyssenkrupp/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "ThyssenKrupp" .
+
+<http://example.com/id/hersteller/t/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "t" .
+
+<http://example.com/id/hersteller/schindler-aufzuege-u-fahrtreppe/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Schindler Aufzüge u Fahrtreppe" .
+
+<http://example.com/id/hersteller/schindler-aufzuege/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Schindler Aufzüge" .
+
+<http://example.com/id/hersteller/ath-gmbh-and-co-kg/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "ATH GmbH & Co. KG" .
+
+<http://example.com/id/hersteller/thyssen-krupp-aufzuege-gmbh/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Thyssen Krupp Aufzüge GmbH" .
+
+<http://example.com/id/hersteller/thyssen-all-inclusive/>
+  a <http://example.com/ns/hersteller/> ;
+  rdfs:label "Thyssen All Inclusive" .
+

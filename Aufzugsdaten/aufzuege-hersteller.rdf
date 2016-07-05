@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:dc11="http://purl.org/dc/elements/1.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+  <owl:Ontology rdf:about="">
+    <dc11:description xml:lang="en">Aufzugshersteller</dc11:description>
+    <dc11:title>Aufzugsdaten</dc11:title>
+    <dc11:subject>Aufzugsdaten</dc11:subject>
+    <dc11:creator>Michael Binzen</dc11:creator>
+    <dc11:publisher>Deutsche Bahn AG</dc11:publisher>
+    <dc11:rightsHolder>Deutsche Bahn AG</dc11:rightsHolder>
+    <dc11:license>Commons Attribution 4.0 International (CC BY 4.0)</dc11:license>
+    <dc11:created>10-2015</dc11:created>
+    <dc11:modified>10-2015</dc11:modified>
+    <dc11:language>de</dc11:language>
+    <dc11:source>http://data.deutschebahn.com/dataset/data-aufzug</dc11:source>
+    <dc11:audience>all</dc11:audience>
+  </owl:Ontology>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/otis-gmbh-and-co-ohg/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>OTIS GmbH &amp; Co. OHG</rdfs:label>
+    <rdfs:label>OTIS-GmbH &amp; Co. OHG</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/thyssen-krupp-ag/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Thyssen Krupp AG</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/rud-prey-gmbh-and-co-kg/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Rud. Prey GmbH &amp; Co. KG</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/koch-aufzuegs-service-gmbh/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Koch Aufzügs-Service GmbH</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/schmersal-aufzugsservice/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Schmersal Aufzugsservice</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/schindler-aufzuege-und-fahrtrep/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Schindler Aufzüge und Fahrtrep</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/janzhoff/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Janzhoff</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/otto-und-weiss-gmbh/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>OTTO und Weiss GmbH</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/haushahn-gmbh-and-co-kg/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Haushahn GmbH &amp; Co. KG</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/kone-gmbh/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Kone GmbH</rdfs:label>
+    <rdfs:label>KONE GmbH</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/christian-hein-gmbh/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Christian Hein GmbH</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/tepper-aufzuege-gmbh/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Tepper Aufzüge GmbH</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/rangger-aufzuege-gmbh/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Rangger Aufzüge GmbH</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/rangger/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Rangger</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/veb-awl-leipzig/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>VEB AWL Leipzig</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/paul-schmidt/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Paul Schmidt</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/schindler/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Schindler</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/flohr-c/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Flohr C</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/rieser-aufzugsbau-gmbh/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Rieser Aufzugsbau GmbH</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/m-schmitt-and-sohn-gmbh-and-co/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>M. Schmitt &amp; Sohn GmbH &amp; Co.</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/aufzugsdienst-leis-gmbh/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Aufzugsdienst Leis GmbH</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/becker--reinhardt/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Becker + Reinhardt</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/otis/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>OTIS</rdfs:label>
+    <rdfs:label>Otis</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/hiro-lift/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Hiro Lift</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/brobeil-aufzuege-gmbh-and-co-kg/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Brobeil Aufzüge GmbH &amp; Co. KG</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/atb-aufzugtechnik-baecker-gmbh/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>ATB Aufzugtechnik Baecker GmbH</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/beck--henkel/thyssen/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Beck + Henkel/Thyssen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/schmidt-aufzuege-medebach/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Schmidt Aufzüge Medebach</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/hopmann-maschinenfabrik-gmbh/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Hopmann Maschinenfabrik GmbH</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/sieben-iao/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Sieben IAO</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/aufzugsbau-dresden/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Aufzugsbau Dresden</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/c-haushahn-gmbh%26co-stuttgart/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>C.Haushahn GmbH&amp;CO.-Stuttgart</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/mohr-u-federhaff/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Mohr u. Federhaff</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/hebo-foerdertechnik-gmbh/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>HEBO Fördertechnik GmbH</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/c-haushahn-gmbh-and-co-kg/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>C. Haushahn GmbH &amp; Co. KG</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/haushahn/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Haushahn</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/r-stahl-ag/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>R. STAHL AG</rdfs:label>
+    <rdfs:label>R. Stahl AG</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/schmidt-aufzuege-medebach-gmbh/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Schmidt Aufzüge Medebach GmbH</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/friedrich-aufzuege-gmbh-and-co-k/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Friedrich-Aufzüge GmbH &amp; Co. K</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/huetter-aufzuege-gmbh/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Hütter Aufzüge GmbH</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/stricker-aufzuege-gmbh/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Stricker Aufzüge Gmbh</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/vestner/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Vestner</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/orba-lift-aufzugsdienst-gmbh/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Orba-Lift Aufzugsdienst GmbH</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/thyssen-krupp/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Thyssen Krupp</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/osma-aufzuege-albert-schenk-gmb/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>OSMA-Aufzüge Albert Schenk Gmb</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/braun-aufzuege-gmbh/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Braun Aufzüge GmbH</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/gall-and-heckelmann-gmbh/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Gall &amp; Heckelmann GmbH</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/loedige-aufzugstechnik-gmbh/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Lödige Aufzugstechnik GmbH</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/universal-lift-gmbh-berlin/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Universal Lift GmbH Berlin</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/herold-and-co/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Herold &amp; Co</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/mannesmann-anlagen/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Mannesmann Anlagen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/baas-aufzuege/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Baas Aufzüge</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/aufzugswerk-leipzig/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Aufzugswerk Leipzig</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/becker-and-reinhart/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Becker &amp; Reinhart</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/lift/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>LIFT</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/mahler-u-paulus-aufzugsdienst/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Mahler u. Paulus Aufzugsdienst</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/alois-kasper/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Alois Kasper</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/schmitt--sohn/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Schmitt + Sohn</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/goebel-aufzuege-gmbh/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Goebel Aufzüge GmbH</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/veb-sbs-dresden/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>VEB SBS Dresden</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/aufzugbau-mayer/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Aufzugbau Mayer</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/rupperle-muenzingen/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Rupperle Münzingen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/thyssenkrupp-aufzuege-gmbh/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>ThyssenKrupp Aufzüge GmbH</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/lifttec-gmbh/pfaffenweiler/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>LIFTTEC GmbH / Pfaffenweiler</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/lutz-aufzuege/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Lutz Aufzüge</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/haisch-aufzuege-gmbh/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Haisch Aufzüge GmbH</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/mayland-aufzuege-e-kfm/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Mayland-Aufzüge e.Kfm.</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/otis-gmbh/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Otis GmbH</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/fa-thyssen/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Fa. Thyssen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/liftservice-montage-gmbh/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Liftservice Montage GmbH</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/kasper-gmbh/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Kasper GmbH</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/isselwerk/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Isselwerk</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/fujitsu/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Fujitsu</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/westag-and-getalit-ag/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Westag &amp; Getalit AG</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/schmitt-and-sohn/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Schmitt &amp; Sohn</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/thyssen/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Thyssen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/total/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Total</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/inotec/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Inotec</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/uniflair/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Uniflair</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/airwell/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Airwell</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/berchtenbreiter-gmbh-muenchen/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Berchtenbreiter GmbH München</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/butz-and-neumair-gmbh/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Butz &amp; Neumair GmbH</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/butz%26neumeyer/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Butz&amp;Neumeyer</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/fa-schindler/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Fa. Schindler</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/ludwig-freytag-gmbh-and-co/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Ludwig Freytag Gmbh &amp; Co.</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/boehnke-partner/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Böhnke Partner</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/fa/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Fa.</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/schindler-aufz-u-fahrt-gmbh/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Schindler Aufz. u. Fahrt. GmbH</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/fa-tyssenkrupp/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Fa. TyssenKrupp</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/thyssenkrupp/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>ThyssenKrupp</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/t/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>t</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/schindler-aufzuege-u-fahrtreppe/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Schindler Aufzüge u Fahrtreppe</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/schindler-aufzuege/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Schindler Aufzüge</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/ath-gmbh-and-co-kg/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>ATH GmbH &amp; Co. KG</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/thyssen-krupp-aufzuege-gmbh/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Thyssen Krupp Aufzüge GmbH</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/hersteller/thyssen-all-inclusive/">
+    <rdf:type rdf:resource="http://example.com/ns/hersteller/"/>
+    <rdfs:label>Thyssen All Inclusive</rdfs:label>
+  </rdf:Description>
+
+</rdf:RDF>
