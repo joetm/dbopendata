@@ -21,10 +21,4 @@ Beispielressourcen:
 
 betriebsstellen.rdf
 
-	<rdf:Description rdf:about="&id;betriebsstelle/ka/">
-		<rdf:type rdf:resource="&ns;betriebsstelle/" />
-		<rdfs:label>Aachen Hbf</rdfs:label>
-		<ns:hasLaendercode>DE</ns:hasLaendercode>
-		<ns:hasLocationcode>10002</ns:hasLocationcode>
-		<ns:hasGueltigkeit>2008-12-14</ns:hasGueltigkeit>
-	</rdf:Description>
+

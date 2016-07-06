@@ -64,7 +64,6 @@ aufzuege.rdf:
 		<ns0:hasTragkraft rdf:datatype="unit:kg">1000</ns0:hasTragkraft>
 	</rdf:Description>
 
-
 aufzuege-hersteller.rdf:
 
 	<rdf:Description rdf:about="http://example.com/id/hersteller/thyssen-krupp/">
