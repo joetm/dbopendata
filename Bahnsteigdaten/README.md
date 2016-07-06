@@ -22,28 +22,34 @@ Beispiel-Ressourcen:
 
 bahnsteige.rdf:
 
-	<rdf:Description rdf:about="&id;bahnhof/238/bahnsteig/b01/">
-		<rdf:type rdf:resource="&ns;bahnsteig/" />
+	<rdf:Description rdf:about="http://example.com/id/bahnhof/3642/bahnsteig/b01/">
+		<rdf:type rdf:resource="http://example.com/ns/bahnsteig/"/>
 		<rdfs:label>Gleis 1</rdfs:label>
-		<ns:hasBahnhof rdf:resource="&id;bahnhof/238/" />
-		<ns:hasGleis rdf:resource="&id;bahnhof/238/gleis/1/" />
-		<ns:hasNettobaulaenge rdf:datatype="unit:m">140</ns:hasNettobaulaenge>
-		<ns:hasHoeheBahnsteigkante rdf:datatype="unit:m">0,76</ns:hasHoeheBahnsteigkante>
+		<rdfs:label>Gleis 2</rdfs:label>
+		<ns0:hasBahnhof rdf:resource="http://example.com/id/bahnhof/3642/"/>
+		<ns0:hasGleis rdf:resource="http://example.com/id/bahnhof/3642/gleis/1/"/>
+		<ns0:hasGleis rdf:resource="http://example.com/id/bahnhof/3642/gleis/2/"/>
+		<ns0:hasNettobaulaenge rdf:datatype="unit:m">140</ns0:hasNettobaulaenge>
+		<ns0:hasHoeheBahnsteigkante rdf:datatype="unit:m">0,55</ns0:hasHoeheBahnsteigkante>
 	</rdf:Description>
 
 gleise.rdf:
 
-	<rdf:Description rdf:about="&id;bahnhof/238/gleis/2/">
-		<rdf:type rdf:resource="&ns;gleis/" />
-		<rdfs:label>Babenhausen (Hess), Gleis 2</rdfs:label>
-		<ns:hasBahnsteig rdf:resource="&id;bahnhof/238/bahnsteig/b01/" />
-		<ns:hasBahnhof rdf:resource="&id;bahnhof/238/" />
+	<rdf:Description rdf:about="http://example.com/id/bahnhof/1015/gleis/2/">
+		<rdf:type rdf:resource="http://example.com/ns/gleis/"/>
+		<rdfs:label>Buxtehude, Gleis 2</rdfs:label>
+		<ns0:hasBahnsteig rdf:resource="http://example.com/id/bahnhof/1015/bahnsteig/b02/"/>
+		<ns0:hasBahnhof rdf:resource="http://example.com/id/bahnhof/1015/"/>
 	</rdf:Description>
 
 bahnhoefe-gleise.rdf:
 
-	<rdf:Description rdf:about="&id;bahnhof/3490/">
-		<rdf:type rdf:resource="&ns;bahnhof/" />
-		<ns:hasBahnsteig rdf:resource="&id;bahnhof/3490/bahnsteig/b02/" />
-		<ns:hasGleis rdf:resource="&id;bahnhof/3490/gleis/3/" />
+	<rdf:Description rdf:about="http://example.com/id/bahnhof/238/">
+		<rdf:type rdf:resource="http://example.com/ns/bahnhof/"/>
+		<ns0:hasBahnsteig rdf:resource="http://example.com/id/bahnhof/238/bahnsteig/b01/"/>
+		<ns0:hasBahnsteig rdf:resource="http://example.com/id/bahnhof/238/bahnsteig/b02/"/>
+		<ns0:hasGleis rdf:resource="http://example.com/id/bahnhof/238/gleis/1/"/>
+		<ns0:hasGleis rdf:resource="http://example.com/id/bahnhof/238/gleis/2/"/>
+		<ns0:hasGleis rdf:resource="http://example.com/id/bahnhof/238/gleis/3/"/>
+		<ns0:hasGleis rdf:resource="http://example.com/id/bahnhof/238/gleis/4/"/>
 	</rdf:Description>
