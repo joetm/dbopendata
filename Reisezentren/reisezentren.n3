@@ -6031,7 +6031,5 @@
 <http://example.com/id/reisezentrum/647412/> <http://purl.org/goodrelations/v1#hasOpeningHoursSpecification> <http://example.com/id/oeffnungszeit/647412/friday/> .
 <http://example.com/id/reisezentrum/647412/> <http://purl.org/goodrelations/v1#hasOpeningHoursSpecification> <http://example.com/id/oeffnungszeit/647412/saturday/> .
 <http://example.com/id/reisezentrum/647412/> <http://purl.org/goodrelations/v1#hasOpeningHoursSpecification> <http://example.com/id/oeffnungszeit/647412/sunday/> .
-<http://example.com/ns/reisezentrum/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.com/ns/reisezentrum/> .
-<http://example.com/ns/reisezentrum/> <http://www.w3.org/2000/01/rdf-schema#label> "Reisezentrum" .
-<http://example.com/ns/mobility-center/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.com/ns/mobility-center/> .
-<http://example.com/ns/mobility-center/> <http://www.w3.org/2000/01/rdf-schema#label> "Mobility Center" .
+<http://example.com/id/reisezentrum/> <http://www.w3.org/2000/01/rdf-schema#label> "Reisezentrum" .
+<http://example.com/id/mobility-center/> <http://www.w3.org/2000/01/rdf-schema#label> "Mobility Center" .

@@ -3685,11 +3685,5 @@
   ns0:hasOrt <http://example.com/id/ort/bad-fallingbostel/> ;
   gr:hasOpeningHoursSpecification <http://example.com/id/oeffnungszeit/647412/monday/>, <http://example.com/id/oeffnungszeit/647412/tuesday/>, <http://example.com/id/oeffnungszeit/647412/wednesday/>, <http://example.com/id/oeffnungszeit/647412/thursday/>, <http://example.com/id/oeffnungszeit/647412/friday/>, <http://example.com/id/oeffnungszeit/647412/saturday/>, <http://example.com/id/oeffnungszeit/647412/sunday/> .
 
-<http://example.com/ns/reisezentrum/>
-  a <http://example.com/ns/reisezentrum/> ;
-  rdfs:label "Reisezentrum" .
-
-<http://example.com/ns/mobility-center/>
-  a <http://example.com/ns/mobility-center/> ;
-  rdfs:label "Mobility Center" .
-
+<http://example.com/id/reisezentrum/> rdfs:label "Reisezentrum" .
+<http://example.com/id/mobility-center/> rdfs:label "Mobility Center" .

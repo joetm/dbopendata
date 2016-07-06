@@ -65,13 +65,11 @@ resiezentren.rdf:
         <gr:hasOpeningHoursSpecification rdf:resource="http://example.com/id/oeffnungszeit/647412/sunday/"/>
     </rdf:Description>
 
-    <rdf:Description rdf:about="http://example.com/ns/reisezentrum/">
-        <rdf:type rdf:resource="http://example.com/ns/reisezentrum/"/>
+    <rdf:Description rdf:about="http://example.com/id/reisezentrum/">
         <rdfs:label>Reisezentrum</rdfs:label>
     </rdf:Description>
 
-    <rdf:Description rdf:about="http://example.com/ns/mobility-center/">
-        <rdf:type rdf:resource="http://example.com/ns/mobility-center/"/>
+    <rdf:Description rdf:about="http://example.com/id/mobility-center/">
         <rdfs:label>Mobility Center</rdfs:label>
     </rdf:Description>
 
