@@ -2,7 +2,7 @@ Reisezentren der Deutschen Bahn
 ===============================
 
 STAND: Mai 2016
-Quelle: http://data.deutschebahn.com/datasets/reisezentren/
+Quelle: http://data.deutschebahn.com/dataset/data-reisezentren
 Lizenz: Creative Commons Attribution 4.0 International (CC BY 4.0)
 
 Die Reisezentren enthalten eine Liste der Verkaufsstellen inkl. Adressen, Koordinaten und Öffnungszeiten.
@@ -41,3 +41,47 @@ In den veröffentlichten Daten sind zu jeder Verkaufsstelle folgende Informatione
 * Öffnungszeiten Sonntag 3: Ggf. weitere Öffnungszeiten.
 * Koord_Lat: Latitude der Verkaufstelle in WGS84, z. B. 50768944. Dies entspricht N 50,768944° (6 Nachkommastellen in Dezimalgrad).
 * Koord_Lon: Longitude der Verkaufstelle in WGS84, z. B. 6090200. Dies entspricht E 6,090200° (6 Nachkommastellen in Dezimalgrad).
+
+
+Beispiel-Ressourcen:
+--------------------
+
+resiezentren.rdf:
+
+    <rdf:Description rdf:about="http://example.com/id/reisezentrum/647412/">
+        <rdf:type rdf:resource="http://example.com/ns/reisezentrum/"/>
+        <rdf:type rdf:resource="http://purl.org/goodrelations/v1#Location"/>
+        <rdfs:label>Reisezentrum Bad Fallingbostel</rdfs:label>
+        <rdfs:label>Video-Reisezentrum</rdfs:label>
+        <ns0:hasStrasse>Am Bahnhof 2</ns0:hasStrasse>
+        <ns0:hasPLZ>29683</ns0:hasPLZ>
+        <ns0:hasOrt rdf:resource="http://example.com/id/ort/bad-fallingbostel/"/>
+        <gr:hasOpeningHoursSpecification rdf:resource="http://example.com/id/oeffnungszeit/647412/monday/"/>
+        <gr:hasOpeningHoursSpecification rdf:resource="http://example.com/id/oeffnungszeit/647412/tuesday/"/>
+        <gr:hasOpeningHoursSpecification rdf:resource="http://example.com/id/oeffnungszeit/647412/wednesday/"/>
+        <gr:hasOpeningHoursSpecification rdf:resource="http://example.com/id/oeffnungszeit/647412/thursday/"/>
+        <gr:hasOpeningHoursSpecification rdf:resource="http://example.com/id/oeffnungszeit/647412/friday/"/>
+        <gr:hasOpeningHoursSpecification rdf:resource="http://example.com/id/oeffnungszeit/647412/saturday/"/>
+        <gr:hasOpeningHoursSpecification rdf:resource="http://example.com/id/oeffnungszeit/647412/sunday/"/>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.com/ns/reisezentrum/">
+        <rdf:type rdf:resource="http://example.com/ns/reisezentrum/"/>
+        <rdfs:label>Reisezentrum</rdfs:label>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.com/ns/mobility-center/">
+        <rdf:type rdf:resource="http://example.com/ns/mobility-center/"/>
+        <rdfs:label>Mobility Center</rdfs:label>
+    </rdf:Description>
+
+reisezentren-oeffnungszeiten.rdf:
+
+    <gr:OpeningHoursSpecification rdf:about="http://example.com/id/oeffnungszeit/503847/monday/">
+        <gr:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <gr:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">08:00</gr:opens>
+        <gr:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">14:00</gr:opens>
+        <gr:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">13:00</gr:closes>
+        <gr:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">18:00</gr:closes>
+    </gr:OpeningHoursSpecification>
+
