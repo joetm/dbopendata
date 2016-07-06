@@ -31,12 +31,12 @@ betriebstellen.rdf
 
 haltestellen.rdf
 
-	<rdf:Description rdf:about="&id;haltestelle/8005074/">
-		<rdf:type rdf:resource="&ns;haltestelle/" />
-		<rdfs:label>Rh&#246;ndorf</rdfs:label>
-		<ns:hasDS100 rdf:resource="&id;betriebstelle/krhd/" />
-		<ns:hasVerkehr>nur Regionalverkehr</ns:hasVerkehr>
-		<ns:hasVerkehrAbk>RV</ns:hasVerkehrAbk>
-		<ns:hasLaenge rdf:datatype="unit:m">7,210214</ns:hasLaenge>
-		<ns:hasBreite rdf:datatype="unit:m">50,657876</ns:hasBreite>
+	<rdf:Description rdf:about="http://example.com/id/haltestelle/8012940/">
+		<rdf:type rdf:resource="http://example.com/ns/haltestelle/"/>
+		<rdfs:label>Schwerin Mitte</rdfs:label>
+		<ns0:hasDS100 rdf:resource="http://example.com/id/betriebstelle/wsmi/"/>
+		<ns0:hasVerkehr>nur Regionalverkehr</ns0:hasVerkehr>
+		<ns0:hasVerkehrAbk>RV</ns0:hasVerkehrAbk>
+		<ns0:hasLaenge rdf:datatype="unit:m">11,405334</ns0:hasLaenge>
+		<ns0:hasBreite rdf:datatype="unit:m">53,626911</ns0:hasBreite>
 	</rdf:Description>
