@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:dc11="http://purl.org/dc/elements/1.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:ns0="http://example.com/ns/">
+
+  <owl:Ontology rdf:about="">
+    <dc11:description xml:lang="en">Stationsdaten</dc11:description>
+    <dc11:title>Stationsdaten</dc11:title>
+    <dc11:subject>Stationsdaten</dc11:subject>
+    <dc11:creator>Gerhard Welter</dc11:creator>
+    <dc11:publisher>Deutsche Bahn AG</dc11:publisher>
+    <dc11:rightsHolder>Deutsche Bahn AG</dc11:rightsHolder>
+    <dc11:license>Commons Attribution 4.0 International (CC BY 4.0)</dc11:license>
+    <dc11:version>03-2016</dc11:version>
+    <dc11:language>de</dc11:language>
+    <dc11:source>http://data.deutschebahn.com/datasets/</dc11:source>
+    <dc11:audience>all</dc11:audience>
+  </owl:Ontology>
+
+  <rdf:Description rdf:about="http://example.com/id/aufgabentraeger/zweckverband-nahverkehr-rheinland-gmbh/">
+    <rdf:type rdf:resource="http://example.com/ns/aufgabentraeger/"/>
+    <rdfs:label>Zweckverband Nahverkehr Rheinland GmbH</rdfs:label>
+    <ns0:hasAbkuerzung>AVV.</ns0:hasAbkuerzung>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/aufgabentraeger/zweckverband-verkehrsverbund-rhein-ruhr-aoer/">
+    <rdf:type rdf:resource="http://example.com/ns/aufgabentraeger/"/>
+    <rdfs:label>Zweckverband Verkehrsverbund Rhein-Ruhr AöR</rdfs:label>
+    <ns0:hasAbkuerzung>VRR</ns0:hasAbkuerzung>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/aufgabentraeger/bayerische-eisenbahngesellschaft-mbh/">
+    <rdf:type rdf:resource="http://example.com/ns/aufgabentraeger/"/>
+    <rdfs:label>Bayerische Eisenbahngesellschaft mbH</rdfs:label>
+    <ns0:hasAbkuerzung>AVV</ns0:hasAbkuerzung>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/aufgabentraeger/verkehrsverbund-berlin-brandenburg-gmbh-fuer-berlin/">
+    <rdf:type rdf:resource="http://example.com/ns/aufgabentraeger/"/>
+    <rdfs:label>Verkehrsverbund Berlin-Brandenburg GmbH für Berlin</rdfs:label>
+    <ns0:hasAbkuerzung>VBB</ns0:hasAbkuerzung>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/aufgabentraeger/verkehrsverbund-berlin-brandenburg-gmbh-fuer-brandenburg/">
+    <rdf:type rdf:resource="http://example.com/ns/aufgabentraeger/"/>
+    <rdfs:label>Verkehrsverbund Berlin-Brandenburg GmbH für Brandenburg</rdfs:label>
+    <ns0:hasAbkuerzung>VBB</ns0:hasAbkuerzung>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/aufgabentraeger/zweckverband-nahverkehr-westfalen-lippe/">
+    <rdf:type rdf:resource="http://example.com/ns/aufgabentraeger/"/>
+    <rdfs:label>Zweckverband Nahverkehr Westfalen-Lippe</rdfs:label>
+    <ns0:hasAbkuerzung>NPH</ns0:hasAbkuerzung>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/aufgabentraeger/landesnahverkehrsgesellschaft-niedersachsen-mbh/">
+    <rdf:type rdf:resource="http://example.com/ns/aufgabentraeger/"/>
+    <rdfs:label>Landesnahverkehrsgesellschaft Niedersachsen mbH</rdfs:label>
+    <ns0:hasAbkuerzung>VVOWL</ns0:hasAbkuerzung>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/aufgabentraeger/zweckverband-grossraum-braunschweig/">
+    <rdf:type rdf:resource="http://example.com/ns/aufgabentraeger/"/>
+    <rdfs:label>Zweckverband Großraum Braunschweig</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/aufgabentraeger/senat-fuer-umwelt-bau-verkehr-und-europa-bremen/">
+    <rdf:type rdf:resource="http://example.com/ns/aufgabentraeger/"/>
+    <rdfs:label>Senat für Umwelt, Bau, Verkehr und Europa, Bremen</rdfs:label>
+    <ns0:hasAbkuerzung>VBN</ns0:hasAbkuerzung>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/aufgabentraeger/zweckverband-oepnv-vogtland/">
+    <rdf:type rdf:resource="http://example.com/ns/aufgabentraeger/"/>
+    <rdfs:label>Zweckverband ÖPNV Vogtland</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/aufgabentraeger/zweckverband-verkehrsverbund-mittelsachsen/">
+    <rdf:type rdf:resource="http://example.com/ns/aufgabentraeger/"/>
+    <rdfs:label>Zweckverband Verkehrsverbund Mittelsachsen</rdfs:label>
+    <ns0:hasAbkuerzung>VMS</ns0:hasAbkuerzung>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/aufgabentraeger/verkehrsbund-oberelbe-gmbh/">
+    <rdf:type rdf:resource="http://example.com/ns/aufgabentraeger/"/>
+    <rdfs:label>Verkehrsbund Oberelbe GmbH</rdfs:label>
+    <ns0:hasAbkuerzung>VVO</ns0:hasAbkuerzung>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/aufgabentraeger/rhein-main-verkehrsverbund-gmbh/">
+    <rdf:type rdf:resource="http://example.com/ns/aufgabentraeger/"/>
+    <rdfs:label>Rhein-Main-Verkehrsverbund GmbH</rdfs:label>
+    <ns0:hasAbkuerzung>RMV</ns0:hasAbkuerzung>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/aufgabentraeger/verkehrsverbund-rhein-neckar-gmbh/">
+    <rdf:type rdf:resource="http://example.com/ns/aufgabentraeger/"/>
+    <rdfs:label>Verkehrsverbund Rhein-Neckar GmbH</rdfs:label>
+    <ns0:hasAbkuerzung>RMV</ns0:hasAbkuerzung>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/aufgabentraeger/zweckverband-verkehrsverbund-oberlausitz-niederschlesien/">
+    <rdf:type rdf:resource="http://example.com/ns/aufgabentraeger/"/>
+    <rdfs:label>Zweckverband Verkehrsverbund Oberlausitz-Niederschlesien</rdfs:label>
+    <ns0:hasAbkuerzung>ZVON</ns0:hasAbkuerzung>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/aufgabentraeger/nahverkehrsservicegesellschaft-thueringen-mbh/">
+    <rdf:type rdf:resource="http://example.com/ns/aufgabentraeger/"/>
+    <rdfs:label>Nahverkehrsservicegesellschaft Thüringen mbH</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/aufgabentraeger/nordhessischer-verkehrsverbund-mbh/">
+    <rdf:type rdf:resource="http://example.com/ns/aufgabentraeger/"/>
+    <rdfs:label>Nordhessischer VerkehrsVerbund mbH</rdfs:label>
+    <ns0:hasAbkuerzung>NVV</ns0:hasAbkuerzung>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/aufgabentraeger/nahverkehrsgesellschaft-baden-wuerttemberg-mbh/">
+    <rdf:type rdf:resource="http://example.com/ns/aufgabentraeger/"/>
+    <rdfs:label>Nahverkehrsgesellschaft Baden-Württemberg mbH</rdfs:label>
+    <ns0:hasAbkuerzung>TGO</ns0:hasAbkuerzung>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/aufgabentraeger/nahverkehrsservice-sachsen-anhalt-gmbh/">
+    <rdf:type rdf:resource="http://example.com/ns/aufgabentraeger/"/>
+    <rdfs:label>Nahverkehrsservice Sachsen-Anhalt GmbH</rdfs:label>
+    <ns0:hasAbkuerzung>MDV</ns0:hasAbkuerzung>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/aufgabentraeger/hamburger-verkehrsverbund-gmbh/">
+    <rdf:type rdf:resource="http://example.com/ns/aufgabentraeger/"/>
+    <rdfs:label>Hamburger Verkehrsverbund GmbH</rdfs:label>
+    <ns0:hasAbkuerzung>HVV</ns0:hasAbkuerzung>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/aufgabentraeger/lvs-schleswig-holstein-landesweite-verkehrsservicegesellschaft-mbh/">
+    <rdf:type rdf:resource="http://example.com/ns/aufgabentraeger/"/>
+    <rdfs:label>LVS Schleswig-Holstein Landesweite Verkehrsservicegesellschaft mbH</rdfs:label>
+    <ns0:hasAbkuerzung>HVV</ns0:hasAbkuerzung>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/aufgabentraeger/region-hannover/">
+    <rdf:type rdf:resource="http://example.com/ns/aufgabentraeger/"/>
+    <rdfs:label>Region Hannover</rdfs:label>
+    <ns0:hasAbkuerzung>GVH</ns0:hasAbkuerzung>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/aufgabentraeger/zweckverband-schienenpersonennahverkehr-rheinland-pfalz-sued/">
+    <rdf:type rdf:resource="http://example.com/ns/aufgabentraeger/"/>
+    <rdfs:label>Zweckverband Schienenpersonennahverkehr Rheinland-Pfalz Süd</rdfs:label>
+    <ns0:hasAbkuerzung>VRN</ns0:hasAbkuerzung>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/aufgabentraeger/zweckverband-schienenpersonennahverkehr-rheinland-pfalz-nord/">
+    <rdf:type rdf:resource="http://example.com/ns/aufgabentraeger/"/>
+    <rdfs:label>Zweckverband Schienenpersonennahverkehr Rheinland-Pfalz Nord</rdfs:label>
+    <ns0:hasAbkuerzung>VRM</ns0:hasAbkuerzung>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/aufgabentraeger/zweckverband-fuer-den-nahverkehrsraum-leipzig/">
+    <rdf:type rdf:resource="http://example.com/ns/aufgabentraeger/"/>
+    <rdfs:label>Zweckverband für den Nahverkehrsraum Leipzig</rdfs:label>
+    <ns0:hasAbkuerzung>MDV</ns0:hasAbkuerzung>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/aufgabentraeger/verkehrsgesellschaft-mecklenburg-vorpommern-mbh/">
+    <rdf:type rdf:resource="http://example.com/ns/aufgabentraeger/"/>
+    <rdfs:label>Verkehrsgesellschaft Mecklenburg-Vorpommern mbH</rdfs:label>
+    <ns0:hasAbkuerzung>VVW</ns0:hasAbkuerzung>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/aufgabentraeger/verkehrsverbund-gesellschaft-saar-mbh/">
+    <rdf:type rdf:resource="http://example.com/ns/aufgabentraeger/"/>
+    <rdfs:label>Verkehrsverbund-Gesellschaft Saar mbH</rdfs:label>
+    <ns0:hasAbkuerzung>SaarVV</ns0:hasAbkuerzung>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/aufgabentraeger/verband-region-stuttgart/">
+    <rdf:type rdf:resource="http://example.com/ns/aufgabentraeger/"/>
+    <rdfs:label>Verband Region Stuttgart</rdfs:label>
+    <ns0:hasAbkuerzung>VVS</ns0:hasAbkuerzung>
+  </rdf:Description>
+
+</rdf:RDF>

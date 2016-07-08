@@ -1,0 +1,156 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dc11: <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ns0: <http://example.com/ns/> .
+
+<>
+  a owl:Ontology ;
+  dc11:description "Stationsdaten"@en ;
+  dc11:title "Stationsdaten" ;
+  dc11:subject "Stationsdaten" ;
+  dc11:creator "Gerhard Welter" ;
+  dc11:publisher "Deutsche Bahn AG" ;
+  dc11:rightsHolder "Deutsche Bahn AG" ;
+  dc11:license "Commons Attribution 4.0 International (CC BY 4.0)" ;
+  dc11:version "03-2016" ;
+  dc11:language "de" ;
+  dc11:source "http://data.deutschebahn.com/datasets/" ;
+  dc11:audience "all" .
+
+<http://example.com/id/aufgabentraeger/zweckverband-nahverkehr-rheinland-gmbh/>
+  a <http://example.com/ns/aufgabentraeger/> ;
+  rdfs:label "Zweckverband Nahverkehr Rheinland GmbH" ;
+  ns0:hasAbkuerzung "AVV." .
+
+<http://example.com/id/aufgabentraeger/zweckverband-verkehrsverbund-rhein-ruhr-aoer/>
+  a <http://example.com/ns/aufgabentraeger/> ;
+  rdfs:label "Zweckverband Verkehrsverbund Rhein-Ruhr AöR" ;
+  ns0:hasAbkuerzung "VRR" .
+
+<http://example.com/id/aufgabentraeger/bayerische-eisenbahngesellschaft-mbh/>
+  a <http://example.com/ns/aufgabentraeger/> ;
+  rdfs:label "Bayerische Eisenbahngesellschaft mbH" ;
+  ns0:hasAbkuerzung "AVV" .
+
+<http://example.com/id/aufgabentraeger/verkehrsverbund-berlin-brandenburg-gmbh-fuer-berlin/>
+  a <http://example.com/ns/aufgabentraeger/> ;
+  rdfs:label "Verkehrsverbund Berlin-Brandenburg GmbH für Berlin" ;
+  ns0:hasAbkuerzung "VBB" .
+
+<http://example.com/id/aufgabentraeger/verkehrsverbund-berlin-brandenburg-gmbh-fuer-brandenburg/>
+  a <http://example.com/ns/aufgabentraeger/> ;
+  rdfs:label "Verkehrsverbund Berlin-Brandenburg GmbH für Brandenburg" ;
+  ns0:hasAbkuerzung "VBB" .
+
+<http://example.com/id/aufgabentraeger/zweckverband-nahverkehr-westfalen-lippe/>
+  a <http://example.com/ns/aufgabentraeger/> ;
+  rdfs:label "Zweckverband Nahverkehr Westfalen-Lippe" ;
+  ns0:hasAbkuerzung "NPH" .
+
+<http://example.com/id/aufgabentraeger/landesnahverkehrsgesellschaft-niedersachsen-mbh/>
+  a <http://example.com/ns/aufgabentraeger/> ;
+  rdfs:label "Landesnahverkehrsgesellschaft Niedersachsen mbH" ;
+  ns0:hasAbkuerzung "VVOWL" .
+
+<http://example.com/id/aufgabentraeger/zweckverband-grossraum-braunschweig/>
+  a <http://example.com/ns/aufgabentraeger/> ;
+  rdfs:label "Zweckverband Großraum Braunschweig" .
+
+<http://example.com/id/aufgabentraeger/senat-fuer-umwelt-bau-verkehr-und-europa-bremen/>
+  a <http://example.com/ns/aufgabentraeger/> ;
+  rdfs:label "Senat für Umwelt, Bau, Verkehr und Europa, Bremen" ;
+  ns0:hasAbkuerzung "VBN" .
+
+<http://example.com/id/aufgabentraeger/zweckverband-oepnv-vogtland/>
+  a <http://example.com/ns/aufgabentraeger/> ;
+  rdfs:label "Zweckverband ÖPNV Vogtland" .
+
+<http://example.com/id/aufgabentraeger/zweckverband-verkehrsverbund-mittelsachsen/>
+  a <http://example.com/ns/aufgabentraeger/> ;
+  rdfs:label "Zweckverband Verkehrsverbund Mittelsachsen" ;
+  ns0:hasAbkuerzung "VMS" .
+
+<http://example.com/id/aufgabentraeger/verkehrsbund-oberelbe-gmbh/>
+  a <http://example.com/ns/aufgabentraeger/> ;
+  rdfs:label "Verkehrsbund Oberelbe GmbH" ;
+  ns0:hasAbkuerzung "VVO" .
+
+<http://example.com/id/aufgabentraeger/rhein-main-verkehrsverbund-gmbh/>
+  a <http://example.com/ns/aufgabentraeger/> ;
+  rdfs:label "Rhein-Main-Verkehrsverbund GmbH" ;
+  ns0:hasAbkuerzung "RMV" .
+
+<http://example.com/id/aufgabentraeger/verkehrsverbund-rhein-neckar-gmbh/>
+  a <http://example.com/ns/aufgabentraeger/> ;
+  rdfs:label "Verkehrsverbund Rhein-Neckar GmbH" ;
+  ns0:hasAbkuerzung "RMV" .
+
+<http://example.com/id/aufgabentraeger/zweckverband-verkehrsverbund-oberlausitz-niederschlesien/>
+  a <http://example.com/ns/aufgabentraeger/> ;
+  rdfs:label "Zweckverband Verkehrsverbund Oberlausitz-Niederschlesien" ;
+  ns0:hasAbkuerzung "ZVON" .
+
+<http://example.com/id/aufgabentraeger/nahverkehrsservicegesellschaft-thueringen-mbh/>
+  a <http://example.com/ns/aufgabentraeger/> ;
+  rdfs:label "Nahverkehrsservicegesellschaft Thüringen mbH" .
+
+<http://example.com/id/aufgabentraeger/nordhessischer-verkehrsverbund-mbh/>
+  a <http://example.com/ns/aufgabentraeger/> ;
+  rdfs:label "Nordhessischer VerkehrsVerbund mbH" ;
+  ns0:hasAbkuerzung "NVV" .
+
+<http://example.com/id/aufgabentraeger/nahverkehrsgesellschaft-baden-wuerttemberg-mbh/>
+  a <http://example.com/ns/aufgabentraeger/> ;
+  rdfs:label "Nahverkehrsgesellschaft Baden-Württemberg mbH" ;
+  ns0:hasAbkuerzung "TGO" .
+
+<http://example.com/id/aufgabentraeger/nahverkehrsservice-sachsen-anhalt-gmbh/>
+  a <http://example.com/ns/aufgabentraeger/> ;
+  rdfs:label "Nahverkehrsservice Sachsen-Anhalt GmbH" ;
+  ns0:hasAbkuerzung "MDV" .
+
+<http://example.com/id/aufgabentraeger/hamburger-verkehrsverbund-gmbh/>
+  a <http://example.com/ns/aufgabentraeger/> ;
+  rdfs:label "Hamburger Verkehrsverbund GmbH" ;
+  ns0:hasAbkuerzung "HVV" .
+
+<http://example.com/id/aufgabentraeger/lvs-schleswig-holstein-landesweite-verkehrsservicegesellschaft-mbh/>
+  a <http://example.com/ns/aufgabentraeger/> ;
+  rdfs:label "LVS Schleswig-Holstein Landesweite Verkehrsservicegesellschaft mbH" ;
+  ns0:hasAbkuerzung "HVV" .
+
+<http://example.com/id/aufgabentraeger/region-hannover/>
+  a <http://example.com/ns/aufgabentraeger/> ;
+  rdfs:label "Region Hannover" ;
+  ns0:hasAbkuerzung "GVH" .
+
+<http://example.com/id/aufgabentraeger/zweckverband-schienenpersonennahverkehr-rheinland-pfalz-sued/>
+  a <http://example.com/ns/aufgabentraeger/> ;
+  rdfs:label "Zweckverband Schienenpersonennahverkehr Rheinland-Pfalz Süd" ;
+  ns0:hasAbkuerzung "VRN" .
+
+<http://example.com/id/aufgabentraeger/zweckverband-schienenpersonennahverkehr-rheinland-pfalz-nord/>
+  a <http://example.com/ns/aufgabentraeger/> ;
+  rdfs:label "Zweckverband Schienenpersonennahverkehr Rheinland-Pfalz Nord" ;
+  ns0:hasAbkuerzung "VRM" .
+
+<http://example.com/id/aufgabentraeger/zweckverband-fuer-den-nahverkehrsraum-leipzig/>
+  a <http://example.com/ns/aufgabentraeger/> ;
+  rdfs:label "Zweckverband für den Nahverkehrsraum Leipzig" ;
+  ns0:hasAbkuerzung "MDV" .
+
+<http://example.com/id/aufgabentraeger/verkehrsgesellschaft-mecklenburg-vorpommern-mbh/>
+  a <http://example.com/ns/aufgabentraeger/> ;
+  rdfs:label "Verkehrsgesellschaft Mecklenburg-Vorpommern mbH" ;
+  ns0:hasAbkuerzung "VVW" .
+
+<http://example.com/id/aufgabentraeger/verkehrsverbund-gesellschaft-saar-mbh/>
+  a <http://example.com/ns/aufgabentraeger/> ;
+  rdfs:label "Verkehrsverbund-Gesellschaft Saar mbH" ;
+  ns0:hasAbkuerzung "SaarVV" .
+
+<http://example.com/id/aufgabentraeger/verband-region-stuttgart/>
+  a <http://example.com/ns/aufgabentraeger/> ;
+  rdfs:label "Verband Region Stuttgart" ;
+  ns0:hasAbkuerzung "VVS" .
+

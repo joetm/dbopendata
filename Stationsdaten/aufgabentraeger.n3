@@ -1,0 +1,93 @@
+<> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<> <http://purl.org/dc/elements/1.1/description> "Stationsdaten"@en .
+<> <http://purl.org/dc/elements/1.1/title> "Stationsdaten" .
+<> <http://purl.org/dc/elements/1.1/subject> "Stationsdaten" .
+<> <http://purl.org/dc/elements/1.1/creator> "Gerhard Welter" .
+<> <http://purl.org/dc/elements/1.1/publisher> "Deutsche Bahn AG" .
+<> <http://purl.org/dc/elements/1.1/rightsHolder> "Deutsche Bahn AG" .
+<> <http://purl.org/dc/elements/1.1/license> "Commons Attribution 4.0 International (CC BY 4.0)" .
+<> <http://purl.org/dc/elements/1.1/version> "03-2016" .
+<> <http://purl.org/dc/elements/1.1/language> "de" .
+<> <http://purl.org/dc/elements/1.1/source> "http://data.deutschebahn.com/datasets/" .
+<> <http://purl.org/dc/elements/1.1/audience> "all" .
+<http://example.com/id/aufgabentraeger/zweckverband-nahverkehr-rheinland-gmbh/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.com/ns/aufgabentraeger/> .
+<http://example.com/id/aufgabentraeger/zweckverband-nahverkehr-rheinland-gmbh/> <http://www.w3.org/2000/01/rdf-schema#label> "Zweckverband Nahverkehr Rheinland GmbH" .
+<http://example.com/id/aufgabentraeger/zweckverband-nahverkehr-rheinland-gmbh/> <http://example.com/ns/hasAbkuerzung> "AVV." .
+<http://example.com/id/aufgabentraeger/zweckverband-verkehrsverbund-rhein-ruhr-aoer/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.com/ns/aufgabentraeger/> .
+<http://example.com/id/aufgabentraeger/zweckverband-verkehrsverbund-rhein-ruhr-aoer/> <http://www.w3.org/2000/01/rdf-schema#label> "Zweckverband Verkehrsverbund Rhein-Ruhr A\u00F6R" .
+<http://example.com/id/aufgabentraeger/zweckverband-verkehrsverbund-rhein-ruhr-aoer/> <http://example.com/ns/hasAbkuerzung> "VRR" .
+<http://example.com/id/aufgabentraeger/bayerische-eisenbahngesellschaft-mbh/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.com/ns/aufgabentraeger/> .
+<http://example.com/id/aufgabentraeger/bayerische-eisenbahngesellschaft-mbh/> <http://www.w3.org/2000/01/rdf-schema#label> "Bayerische Eisenbahngesellschaft mbH" .
+<http://example.com/id/aufgabentraeger/bayerische-eisenbahngesellschaft-mbh/> <http://example.com/ns/hasAbkuerzung> "AVV" .
+<http://example.com/id/aufgabentraeger/verkehrsverbund-berlin-brandenburg-gmbh-fuer-berlin/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.com/ns/aufgabentraeger/> .
+<http://example.com/id/aufgabentraeger/verkehrsverbund-berlin-brandenburg-gmbh-fuer-berlin/> <http://www.w3.org/2000/01/rdf-schema#label> "Verkehrsverbund Berlin-Brandenburg GmbH f\u00FCr Berlin" .
+<http://example.com/id/aufgabentraeger/verkehrsverbund-berlin-brandenburg-gmbh-fuer-berlin/> <http://example.com/ns/hasAbkuerzung> "VBB" .
+<http://example.com/id/aufgabentraeger/verkehrsverbund-berlin-brandenburg-gmbh-fuer-brandenburg/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.com/ns/aufgabentraeger/> .
+<http://example.com/id/aufgabentraeger/verkehrsverbund-berlin-brandenburg-gmbh-fuer-brandenburg/> <http://www.w3.org/2000/01/rdf-schema#label> "Verkehrsverbund Berlin-Brandenburg GmbH f\u00FCr Brandenburg" .
+<http://example.com/id/aufgabentraeger/verkehrsverbund-berlin-brandenburg-gmbh-fuer-brandenburg/> <http://example.com/ns/hasAbkuerzung> "VBB" .
+<http://example.com/id/aufgabentraeger/zweckverband-nahverkehr-westfalen-lippe/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.com/ns/aufgabentraeger/> .
+<http://example.com/id/aufgabentraeger/zweckverband-nahverkehr-westfalen-lippe/> <http://www.w3.org/2000/01/rdf-schema#label> "Zweckverband Nahverkehr Westfalen-Lippe" .
+<http://example.com/id/aufgabentraeger/zweckverband-nahverkehr-westfalen-lippe/> <http://example.com/ns/hasAbkuerzung> "NPH" .
+<http://example.com/id/aufgabentraeger/landesnahverkehrsgesellschaft-niedersachsen-mbh/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.com/ns/aufgabentraeger/> .
+<http://example.com/id/aufgabentraeger/landesnahverkehrsgesellschaft-niedersachsen-mbh/> <http://www.w3.org/2000/01/rdf-schema#label> "Landesnahverkehrsgesellschaft Niedersachsen mbH" .
+<http://example.com/id/aufgabentraeger/landesnahverkehrsgesellschaft-niedersachsen-mbh/> <http://example.com/ns/hasAbkuerzung> "VVOWL" .
+<http://example.com/id/aufgabentraeger/zweckverband-grossraum-braunschweig/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.com/ns/aufgabentraeger/> .
+<http://example.com/id/aufgabentraeger/zweckverband-grossraum-braunschweig/> <http://www.w3.org/2000/01/rdf-schema#label> "Zweckverband Gro\u00DFraum Braunschweig" .
+<http://example.com/id/aufgabentraeger/senat-fuer-umwelt-bau-verkehr-und-europa-bremen/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.com/ns/aufgabentraeger/> .
+<http://example.com/id/aufgabentraeger/senat-fuer-umwelt-bau-verkehr-und-europa-bremen/> <http://www.w3.org/2000/01/rdf-schema#label> "Senat f\u00FCr Umwelt, Bau, Verkehr und Europa, Bremen" .
+<http://example.com/id/aufgabentraeger/senat-fuer-umwelt-bau-verkehr-und-europa-bremen/> <http://example.com/ns/hasAbkuerzung> "VBN" .
+<http://example.com/id/aufgabentraeger/zweckverband-oepnv-vogtland/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.com/ns/aufgabentraeger/> .
+<http://example.com/id/aufgabentraeger/zweckverband-oepnv-vogtland/> <http://www.w3.org/2000/01/rdf-schema#label> "Zweckverband \u00D6PNV Vogtland" .
+<http://example.com/id/aufgabentraeger/zweckverband-verkehrsverbund-mittelsachsen/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.com/ns/aufgabentraeger/> .
+<http://example.com/id/aufgabentraeger/zweckverband-verkehrsverbund-mittelsachsen/> <http://www.w3.org/2000/01/rdf-schema#label> "Zweckverband Verkehrsverbund Mittelsachsen" .
+<http://example.com/id/aufgabentraeger/zweckverband-verkehrsverbund-mittelsachsen/> <http://example.com/ns/hasAbkuerzung> "VMS" .
+<http://example.com/id/aufgabentraeger/verkehrsbund-oberelbe-gmbh/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.com/ns/aufgabentraeger/> .
+<http://example.com/id/aufgabentraeger/verkehrsbund-oberelbe-gmbh/> <http://www.w3.org/2000/01/rdf-schema#label> "Verkehrsbund Oberelbe GmbH" .
+<http://example.com/id/aufgabentraeger/verkehrsbund-oberelbe-gmbh/> <http://example.com/ns/hasAbkuerzung> "VVO" .
+<http://example.com/id/aufgabentraeger/rhein-main-verkehrsverbund-gmbh/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.com/ns/aufgabentraeger/> .
+<http://example.com/id/aufgabentraeger/rhein-main-verkehrsverbund-gmbh/> <http://www.w3.org/2000/01/rdf-schema#label> "Rhein-Main-Verkehrsverbund GmbH" .
+<http://example.com/id/aufgabentraeger/rhein-main-verkehrsverbund-gmbh/> <http://example.com/ns/hasAbkuerzung> "RMV" .
+<http://example.com/id/aufgabentraeger/verkehrsverbund-rhein-neckar-gmbh/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.com/ns/aufgabentraeger/> .
+<http://example.com/id/aufgabentraeger/verkehrsverbund-rhein-neckar-gmbh/> <http://www.w3.org/2000/01/rdf-schema#label> "Verkehrsverbund Rhein-Neckar GmbH" .
+<http://example.com/id/aufgabentraeger/verkehrsverbund-rhein-neckar-gmbh/> <http://example.com/ns/hasAbkuerzung> "RMV" .
+<http://example.com/id/aufgabentraeger/zweckverband-verkehrsverbund-oberlausitz-niederschlesien/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.com/ns/aufgabentraeger/> .
+<http://example.com/id/aufgabentraeger/zweckverband-verkehrsverbund-oberlausitz-niederschlesien/> <http://www.w3.org/2000/01/rdf-schema#label> "Zweckverband Verkehrsverbund Oberlausitz-Niederschlesien" .
+<http://example.com/id/aufgabentraeger/zweckverband-verkehrsverbund-oberlausitz-niederschlesien/> <http://example.com/ns/hasAbkuerzung> "ZVON" .
+<http://example.com/id/aufgabentraeger/nahverkehrsservicegesellschaft-thueringen-mbh/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.com/ns/aufgabentraeger/> .
+<http://example.com/id/aufgabentraeger/nahverkehrsservicegesellschaft-thueringen-mbh/> <http://www.w3.org/2000/01/rdf-schema#label> "Nahverkehrsservicegesellschaft Th\u00FCringen mbH" .
+<http://example.com/id/aufgabentraeger/nordhessischer-verkehrsverbund-mbh/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.com/ns/aufgabentraeger/> .
+<http://example.com/id/aufgabentraeger/nordhessischer-verkehrsverbund-mbh/> <http://www.w3.org/2000/01/rdf-schema#label> "Nordhessischer VerkehrsVerbund mbH" .
+<http://example.com/id/aufgabentraeger/nordhessischer-verkehrsverbund-mbh/> <http://example.com/ns/hasAbkuerzung> "NVV" .
+<http://example.com/id/aufgabentraeger/nahverkehrsgesellschaft-baden-wuerttemberg-mbh/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.com/ns/aufgabentraeger/> .
+<http://example.com/id/aufgabentraeger/nahverkehrsgesellschaft-baden-wuerttemberg-mbh/> <http://www.w3.org/2000/01/rdf-schema#label> "Nahverkehrsgesellschaft Baden-W\u00FCrttemberg mbH" .
+<http://example.com/id/aufgabentraeger/nahverkehrsgesellschaft-baden-wuerttemberg-mbh/> <http://example.com/ns/hasAbkuerzung> "TGO" .
+<http://example.com/id/aufgabentraeger/nahverkehrsservice-sachsen-anhalt-gmbh/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.com/ns/aufgabentraeger/> .
+<http://example.com/id/aufgabentraeger/nahverkehrsservice-sachsen-anhalt-gmbh/> <http://www.w3.org/2000/01/rdf-schema#label> "Nahverkehrsservice Sachsen-Anhalt GmbH" .
+<http://example.com/id/aufgabentraeger/nahverkehrsservice-sachsen-anhalt-gmbh/> <http://example.com/ns/hasAbkuerzung> "MDV" .
+<http://example.com/id/aufgabentraeger/hamburger-verkehrsverbund-gmbh/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.com/ns/aufgabentraeger/> .
+<http://example.com/id/aufgabentraeger/hamburger-verkehrsverbund-gmbh/> <http://www.w3.org/2000/01/rdf-schema#label> "Hamburger Verkehrsverbund GmbH" .
+<http://example.com/id/aufgabentraeger/hamburger-verkehrsverbund-gmbh/> <http://example.com/ns/hasAbkuerzung> "HVV" .
+<http://example.com/id/aufgabentraeger/lvs-schleswig-holstein-landesweite-verkehrsservicegesellschaft-mbh/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.com/ns/aufgabentraeger/> .
+<http://example.com/id/aufgabentraeger/lvs-schleswig-holstein-landesweite-verkehrsservicegesellschaft-mbh/> <http://www.w3.org/2000/01/rdf-schema#label> "LVS Schleswig-Holstein Landesweite Verkehrsservicegesellschaft mbH" .
+<http://example.com/id/aufgabentraeger/lvs-schleswig-holstein-landesweite-verkehrsservicegesellschaft-mbh/> <http://example.com/ns/hasAbkuerzung> "HVV" .
+<http://example.com/id/aufgabentraeger/region-hannover/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.com/ns/aufgabentraeger/> .
+<http://example.com/id/aufgabentraeger/region-hannover/> <http://www.w3.org/2000/01/rdf-schema#label> "Region Hannover" .
+<http://example.com/id/aufgabentraeger/region-hannover/> <http://example.com/ns/hasAbkuerzung> "GVH" .
+<http://example.com/id/aufgabentraeger/zweckverband-schienenpersonennahverkehr-rheinland-pfalz-sued/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.com/ns/aufgabentraeger/> .
+<http://example.com/id/aufgabentraeger/zweckverband-schienenpersonennahverkehr-rheinland-pfalz-sued/> <http://www.w3.org/2000/01/rdf-schema#label> "Zweckverband Schienenpersonennahverkehr Rheinland-Pfalz S\u00FCd" .
+<http://example.com/id/aufgabentraeger/zweckverband-schienenpersonennahverkehr-rheinland-pfalz-sued/> <http://example.com/ns/hasAbkuerzung> "VRN" .
+<http://example.com/id/aufgabentraeger/zweckverband-schienenpersonennahverkehr-rheinland-pfalz-nord/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.com/ns/aufgabentraeger/> .
+<http://example.com/id/aufgabentraeger/zweckverband-schienenpersonennahverkehr-rheinland-pfalz-nord/> <http://www.w3.org/2000/01/rdf-schema#label> "Zweckverband Schienenpersonennahverkehr Rheinland-Pfalz Nord" .
+<http://example.com/id/aufgabentraeger/zweckverband-schienenpersonennahverkehr-rheinland-pfalz-nord/> <http://example.com/ns/hasAbkuerzung> "VRM" .
+<http://example.com/id/aufgabentraeger/zweckverband-fuer-den-nahverkehrsraum-leipzig/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.com/ns/aufgabentraeger/> .
+<http://example.com/id/aufgabentraeger/zweckverband-fuer-den-nahverkehrsraum-leipzig/> <http://www.w3.org/2000/01/rdf-schema#label> "Zweckverband f\u00FCr den Nahverkehrsraum Leipzig" .
+<http://example.com/id/aufgabentraeger/zweckverband-fuer-den-nahverkehrsraum-leipzig/> <http://example.com/ns/hasAbkuerzung> "MDV" .
+<http://example.com/id/aufgabentraeger/verkehrsgesellschaft-mecklenburg-vorpommern-mbh/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.com/ns/aufgabentraeger/> .
+<http://example.com/id/aufgabentraeger/verkehrsgesellschaft-mecklenburg-vorpommern-mbh/> <http://www.w3.org/2000/01/rdf-schema#label> "Verkehrsgesellschaft Mecklenburg-Vorpommern mbH" .
+<http://example.com/id/aufgabentraeger/verkehrsgesellschaft-mecklenburg-vorpommern-mbh/> <http://example.com/ns/hasAbkuerzung> "VVW" .
+<http://example.com/id/aufgabentraeger/verkehrsverbund-gesellschaft-saar-mbh/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.com/ns/aufgabentraeger/> .
+<http://example.com/id/aufgabentraeger/verkehrsverbund-gesellschaft-saar-mbh/> <http://www.w3.org/2000/01/rdf-schema#label> "Verkehrsverbund-Gesellschaft Saar mbH" .
+<http://example.com/id/aufgabentraeger/verkehrsverbund-gesellschaft-saar-mbh/> <http://example.com/ns/hasAbkuerzung> "SaarVV" .
+<http://example.com/id/aufgabentraeger/verband-region-stuttgart/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.com/ns/aufgabentraeger/> .
+<http://example.com/id/aufgabentraeger/verband-region-stuttgart/> <http://www.w3.org/2000/01/rdf-schema#label> "Verband Region Stuttgart" .
+<http://example.com/id/aufgabentraeger/verband-region-stuttgart/> <http://example.com/ns/hasAbkuerzung> "VVS" .

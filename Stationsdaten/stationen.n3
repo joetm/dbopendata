@@ -1,0 +1,12 @@
+<> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<> <http://purl.org/dc/elements/1.1/description> "Stationsdaten"@en .
+<> <http://purl.org/dc/elements/1.1/title> "Stationsdaten" .
+<> <http://purl.org/dc/elements/1.1/subject> "Stationsdaten" .
+<> <http://purl.org/dc/elements/1.1/creator> "Gerhard Welter" .
+<> <http://purl.org/dc/elements/1.1/publisher> "Deutsche Bahn AG" .
+<> <http://purl.org/dc/elements/1.1/rightsHolder> "Deutsche Bahn AG" .
+<> <http://purl.org/dc/elements/1.1/license> "Commons Attribution 4.0 International (CC BY 4.0)" .
+<> <http://purl.org/dc/elements/1.1/version> "03-2016" .
+<> <http://purl.org/dc/elements/1.1/language> "de" .
+<> <http://purl.org/dc/elements/1.1/source> "http://data.deutschebahn.com/datasets/" .
+<> <http://purl.org/dc/elements/1.1/audience> "all" .

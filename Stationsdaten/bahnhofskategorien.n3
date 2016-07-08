@@ -1,0 +1,33 @@
+<> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<> <http://purl.org/dc/elements/1.1/description> "Stationsdaten"@en .
+<> <http://purl.org/dc/elements/1.1/title> "Stationsdaten" .
+<> <http://purl.org/dc/elements/1.1/subject> "Stationsdaten" .
+<> <http://purl.org/dc/elements/1.1/creator> "Gerhard Welter" .
+<> <http://purl.org/dc/elements/1.1/publisher> "Deutsche Bahn AG" .
+<> <http://purl.org/dc/elements/1.1/rightsHolder> "Deutsche Bahn AG" .
+<> <http://purl.org/dc/elements/1.1/license> "Commons Attribution 4.0 International (CC BY 4.0)" .
+<> <http://purl.org/dc/elements/1.1/version> "03-2016" .
+<> <http://purl.org/dc/elements/1.1/language> "de" .
+<> <http://purl.org/dc/elements/1.1/source> "http://data.deutschebahn.com/datasets/" .
+<> <http://purl.org/dc/elements/1.1/audience> "all" .
+<http://example.com/id/bahnhofskategorie/2/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.com/ns/bahnhofskategorie/> .
+<http://example.com/id/bahnhofskategorie/2/> <http://www.w3.org/2000/01/rdf-schema#label> "Bahnhof Kategorie 2" .
+<http://example.com/id/bahnhofskategorie/2/> <http://purl.org/dc/elements/1.1/description> "Bahnh\u00F6fe der Kategorie 2 sind \u00FCblicherweise wichtige Halte im Fernverkehr (mit Halt von Intercity- oder EuroCity-Z\u00FCgen) in gro\u00DFen St\u00E4dten oder erm\u00F6glichen eine Anbindung an einen gro\u00DFen Flughafen." .
+<http://example.com/id/bahnhofskategorie/4/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.com/ns/bahnhofskategorie/> .
+<http://example.com/id/bahnhofskategorie/4/> <http://www.w3.org/2000/01/rdf-schema#label> "Bahnhof Kategorie 4" .
+<http://example.com/id/bahnhofskategorie/4/> <http://purl.org/dc/elements/1.1/description> "Die fr\u00C3\u00BCher als \u00E2\u0080\u009Ehoch frequentierter Nahverkehrssystemhalt/Nahverkehrsknoten\u00E2\u0080\u009C bezeichneten Stationen richten sich vor allem oft an Pendler. An einzelnen dieser Stationen halten auch Fernz\u00C3\u00BCge. Auch S-Bahnh\u00C3\u00B6fe bzw. -Haltepunkte, die von einer oder mehreren im dichten Takt fahrenden Linien bedient werden, werden dieser Kategorie zugeordnet, was sich aber meist nicht in einer gegen\u00C3\u00BCber den Kategorien Stationen der Kategorie 5 sind oft die kleinerer St\u00C3\u00A4dte sowie zahlreiche Stadtteilbahnh\u00C3\u00B6fe. Sie werden oft von Pendlern genutzt. und Bahnh\u00C3\u00B6fe der Kategorie 6 befinden sich meist in d\u00C3\u00BCnn besiedelten Gegenden. Die Ausstattung beschr\u00C3\u00A4nkt sich \u00E2\u0080\u009Eauf das Notwendigste\u00E2\u0080\u009C. besseren Ausstattung widerspiegelt." .
+<http://example.com/id/bahnhofskategorie/5/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.com/ns/bahnhofskategorie/> .
+<http://example.com/id/bahnhofskategorie/5/> <http://www.w3.org/2000/01/rdf-schema#label> "Bahnhof Kategorie 5" .
+<http://example.com/id/bahnhofskategorie/5/> <http://purl.org/dc/elements/1.1/description> "Stationen der Kategorie 5 sind oft die kleinerer St\u00E4dte sowie zahlreiche Stadtteilbahnh\u00F6fe. Sie werden oft von Pendlern genutzt." .
+<http://example.com/id/bahnhofskategorie/7/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.com/ns/bahnhofskategorie/> .
+<http://example.com/id/bahnhofskategorie/7/> <http://www.w3.org/2000/01/rdf-schema#label> "Bahnhof Kategorie 7" .
+<http://example.com/id/bahnhofskategorie/7/> <http://purl.org/dc/elements/1.1/description> "Zu dieser niedrigsten Bahnhofskategorie geh\u00C3\u00B6ren oft \u00E2\u0080\u009ELandhalte\u00E2\u0080\u009C. Bahnh\u00C3\u00B6fe dieser Kategorie haben die geringste Zahl von Reisenden und meist nur die f\u00C3\u00BCr einen Haltepunkt notwendigen Einrichtungen." .
+<http://example.com/id/bahnhofskategorie/6/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.com/ns/bahnhofskategorie/> .
+<http://example.com/id/bahnhofskategorie/6/> <http://www.w3.org/2000/01/rdf-schema#label> "Bahnhof Kategorie 6" .
+<http://example.com/id/bahnhofskategorie/6/> <http://purl.org/dc/elements/1.1/description> "Bahnh\u00C3\u00B6fe der Kategorie 6 befinden sich meist in d\u00C3\u00BCnn besiedelten Gegenden. Die Ausstattung beschr\u00C3\u00A4nkt sich \u00E2\u0080\u009Eauf das Notwendigste\u00E2\u0080\u009C." .
+<http://example.com/id/bahnhofskategorie/3/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.com/ns/bahnhofskategorie/> .
+<http://example.com/id/bahnhofskategorie/3/> <http://www.w3.org/2000/01/rdf-schema#label> "Bahnhof Kategorie 3" .
+<http://example.com/id/bahnhofskategorie/3/> <http://purl.org/dc/elements/1.1/description> "Bahnh\u00F6fe der Kategorie 2 sind h\u00E4ufig die zentralen Bahnh\u00F6fe kleiner bis mittelgro\u00DFer St\u00E4dte. Diese sind z. B. weniger wichtige Fernverkehrshalte oder Knoten des Regionalverkehrs. Dort gibt es meist ein Empfangsgeb\u00E4ude mit Einkaufsm\u00F6glichkeiten f\u00FCr Fahrkarten oder Lebensmittel. Auf Service-Mitarbeiter wird hier bisweilen verzichtet." .
+<http://example.com/id/bahnhofskategorie/1/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.com/ns/bahnhofskategorie/> .
+<http://example.com/id/bahnhofskategorie/1/> <http://www.w3.org/2000/01/rdf-schema#label> "Bahnhof Kategorie 1" .
+<http://example.com/id/bahnhofskategorie/1/> <http://purl.org/dc/elements/1.1/description> "Zur Kategorie 1 geh\u00F6ren die wichtigsten Fernbahnh\u00F6fe in Deutschland. Dort sind Servicemitarbeiter vorhanden, es gibt eine Reihe von Einkaufsm\u00F6glichkeiten im Bahnhof." .

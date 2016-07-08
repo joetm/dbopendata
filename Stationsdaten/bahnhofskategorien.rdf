@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:dc11="http://purl.org/dc/elements/1.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+  <owl:Ontology rdf:about="">
+    <dc11:description xml:lang="en">Stationsdaten</dc11:description>
+    <dc11:title>Stationsdaten</dc11:title>
+    <dc11:subject>Stationsdaten</dc11:subject>
+    <dc11:creator>Gerhard Welter</dc11:creator>
+    <dc11:publisher>Deutsche Bahn AG</dc11:publisher>
+    <dc11:rightsHolder>Deutsche Bahn AG</dc11:rightsHolder>
+    <dc11:license>Commons Attribution 4.0 International (CC BY 4.0)</dc11:license>
+    <dc11:version>03-2016</dc11:version>
+    <dc11:language>de</dc11:language>
+    <dc11:source>http://data.deutschebahn.com/datasets/</dc11:source>
+    <dc11:audience>all</dc11:audience>
+  </owl:Ontology>
+
+  <rdf:Description rdf:about="http://example.com/id/bahnhofskategorie/2/">
+    <rdf:type rdf:resource="http://example.com/ns/bahnhofskategorie/"/>
+    <rdfs:label>Bahnhof Kategorie 2</rdfs:label>
+    <dc11:description>Bahnhöfe der Kategorie 2 sind üblicherweise wichtige Halte im Fernverkehr (mit Halt von Intercity- oder EuroCity-Zügen) in großen Städten oder ermöglichen eine Anbindung an einen großen Flughafen.</dc11:description>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/bahnhofskategorie/4/">
+    <rdf:type rdf:resource="http://example.com/ns/bahnhofskategorie/"/>
+    <rdfs:label>Bahnhof Kategorie 4</rdfs:label>
+    <dc11:description>Die früher als „hoch frequentierter Nahverkehrssystemhalt/Nahverkehrsknoten“ bezeichneten Stationen richten sich vor allem oft an Pendler. An einzelnen dieser Stationen halten auch Fernzüge. Auch S-Bahnhöfe bzw. -Haltepunkte, die von einer oder mehreren im dichten Takt fahrenden Linien bedient werden, werden dieser Kategorie zugeordnet, was sich aber meist nicht in einer gegenüber den Kategorien Stationen der Kategorie 5 sind oft die kleinerer Städte sowie zahlreiche Stadtteilbahnhöfe. Sie werden oft von Pendlern genutzt. und Bahnhöfe der Kategorie 6 befinden sich meist in dünn besiedelten Gegenden. Die Ausstattung beschränkt sich „auf das Notwendigste“. besseren Ausstattung widerspiegelt.</dc11:description>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/bahnhofskategorie/5/">
+    <rdf:type rdf:resource="http://example.com/ns/bahnhofskategorie/"/>
+    <rdfs:label>Bahnhof Kategorie 5</rdfs:label>
+    <dc11:description>Stationen der Kategorie 5 sind oft die kleinerer Städte sowie zahlreiche Stadtteilbahnhöfe. Sie werden oft von Pendlern genutzt.</dc11:description>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/bahnhofskategorie/7/">
+    <rdf:type rdf:resource="http://example.com/ns/bahnhofskategorie/"/>
+    <rdfs:label>Bahnhof Kategorie 7</rdfs:label>
+    <dc11:description>Zu dieser niedrigsten Bahnhofskategorie gehören oft „Landhalte“. Bahnhöfe dieser Kategorie haben die geringste Zahl von Reisenden und meist nur die für einen Haltepunkt notwendigen Einrichtungen.</dc11:description>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/bahnhofskategorie/6/">
+    <rdf:type rdf:resource="http://example.com/ns/bahnhofskategorie/"/>
+    <rdfs:label>Bahnhof Kategorie 6</rdfs:label>
+    <dc11:description>Bahnhöfe der Kategorie 6 befinden sich meist in dünn besiedelten Gegenden. Die Ausstattung beschränkt sich „auf das Notwendigste“.</dc11:description>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/bahnhofskategorie/3/">
+    <rdf:type rdf:resource="http://example.com/ns/bahnhofskategorie/"/>
+    <rdfs:label>Bahnhof Kategorie 3</rdfs:label>
+    <dc11:description>Bahnhöfe der Kategorie 2 sind häufig die zentralen Bahnhöfe kleiner bis mittelgroßer Städte. Diese sind z. B. weniger wichtige Fernverkehrshalte oder Knoten des Regionalverkehrs. Dort gibt es meist ein Empfangsgebäude mit Einkaufsmöglichkeiten für Fahrkarten oder Lebensmittel. Auf Service-Mitarbeiter wird hier bisweilen verzichtet.</dc11:description>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/id/bahnhofskategorie/1/">
+    <rdf:type rdf:resource="http://example.com/ns/bahnhofskategorie/"/>
+    <rdfs:label>Bahnhof Kategorie 1</rdfs:label>
+    <dc11:description>Zur Kategorie 1 gehören die wichtigsten Fernbahnhöfe in Deutschland. Dort sind Servicemitarbeiter vorhanden, es gibt eine Reihe von Einkaufsmöglichkeiten im Bahnhof.</dc11:description>
+  </rdf:Description>
+
+</rdf:RDF>

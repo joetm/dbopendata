@@ -1,0 +1,17 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dc11: <http://purl.org/dc/elements/1.1/> .
+
+<>
+  a owl:Ontology ;
+  dc11:description "Stationsdaten"@en ;
+  dc11:title "Stationsdaten" ;
+  dc11:subject "Stationsdaten" ;
+  dc11:creator "Gerhard Welter" ;
+  dc11:publisher "Deutsche Bahn AG" ;
+  dc11:rightsHolder "Deutsche Bahn AG" ;
+  dc11:license "Commons Attribution 4.0 International (CC BY 4.0)" ;
+  dc11:version "03-2016" ;
+  dc11:language "de" ;
+  dc11:source "http://data.deutschebahn.com/datasets/" ;
+  dc11:audience "all" .
+
